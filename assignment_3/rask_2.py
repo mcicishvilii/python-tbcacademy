@@ -1,8 +1,4 @@
-number_1 = int(input("enter first number: "))
-number_2 = int(input("enter second number: "))
+import random
 
-if number_1 % number_2 == 0:
-    print("pirveli ricxvi meores jeradia")
-else:
-    print("araris jeradi")
-    
+random_rounded_float = round(random.random()*100, 2)
+print(random_rounded_float)
