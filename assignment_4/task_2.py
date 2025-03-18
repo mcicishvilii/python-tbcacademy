@@ -2,7 +2,6 @@ import random
 
 input_number = int(input("please enter the whole number: "))
 random_num = random.randint(0,1000)
-random_num = 12
 higher_or_lower = ""
 
 if (0 < input_number < 30):
