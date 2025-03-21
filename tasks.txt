@@ -1,0 +1,88 @@
+### 25 Exercises for Learning NumPy
+
+1. **Create a NumPy Array:** Create a 1D array of numbers from 0 to 9.
+2. **Array Properties:** Print the shape, size, and data type of an array.
+3. **Reshape an Array:** Convert a 1D array of size 9 into a 3x3 matrix.
+4. **Indexing & Slicing:** Extract every second element from an array.
+5. **Boolean Indexing:** Filter out numbers greater than 5 from an array.
+6. **Element-wise Operations:** Multiply all elements of an array by 2.
+7. **Matrix Multiplication:** Perform matrix multiplication on two random matrices.
+8. **Identity Matrix:** Create a 4x4 identity matrix.
+9. **Random Number Generation:** Generate a 5x5 array of random numbers between 0 and 1.
+10. **Sorting an Array:** Sort a NumPy array in ascending order.
+11. **Concatenation:** Concatenate two 1D arrays.
+12. **Stacking:** Stack two 1D arrays vertically and horizontally.
+13. **Statistics:** Compute the mean, median, and standard deviation of an array.
+14. **Unique Values:** Find the unique values in an array.
+15. **Flattening an Array:** Convert a 2D array into a 1D array.
+16. **Broadcasting:** Add a scalar value to an entire array.
+17. **Finding Maximum & Minimum:** Find the max and min values of an array.
+18. **Transpose a Matrix:** Transpose a given 2D NumPy array.
+19. **Dot Product:** Compute the dot product of two vectors.
+20. **Create a Structured Array:** Define a structured NumPy array with named fields.
+21. **Find Non-Zero Elements:** Identify the indices of non-zero elements in an array.
+22. **Replace Elements:** Replace all odd numbers in an array with -1.
+23. **Generate a Diagonal Matrix:** Create a 3x3 matrix with diagonal values of 1, 2, and 3.
+24. **Cumulative Sum:** Compute the cumulative sum of an array.
+25. **Histogram:** Compute a histogram of a random set of numbers.
+
+---
+
+### 25 Exercises for Learning Pandas
+
+1. **Create a DataFrame:** Create a DataFrame from a dictionary.
+2. **Read CSV Files:** Load a CSV file into a Pandas DataFrame.
+3. **DataFrame Info:** Display the first five rows and column info of a DataFrame.
+4. **Indexing & Slicing:** Select a specific column and specific rows from a DataFrame.
+5. **Filtering Data:** Filter rows where a column value is greater than 50.
+6. **Sorting:** Sort a DataFrame by a column in descending order.
+7. **Adding a Column:** Add a new column to a DataFrame.
+8. **Dropping Columns:** Remove a specific column from a DataFrame.
+9. **Handling Missing Values:** Fill missing values with the column mean.
+10. **GroupBy Operation:** Group data by a column and calculate the mean.
+11. **Pivot Tables:** Create a pivot table summarizing data.
+12. **Apply Functions:** Apply a custom function to a column.
+13. **Merging DataFrames:** Merge two DataFrames on a common column.
+14. **Concatenating DataFrames:** Concatenate two DataFrames vertically.
+15. **Datetime Operations:** Convert a column to a datetime format and extract the year.
+16. **Renaming Columns:** Rename column names in a DataFrame.
+17. **Value Counts:** Count the occurrences of unique values in a column.
+18. **Reset Index:** Reset the index of a DataFrame.
+19. **Set Index:** Set a specific column as the index.
+20. **Duplicate Rows:** Find and drop duplicate rows.
+21. **String Operations:** Convert a text column to lowercase.
+22. **Conditional Column Creation:** Create a new column based on conditions.
+23. **Exporting Data:** Save a DataFrame to a CSV file.
+24. **Cumulative Sum in a Column:** Compute the cumulative sum for a numeric column.
+25. **Correlation Between Columns:** Compute the correlation between numeric columns.
+
+---
+
+### 25 Overlapping Exercises for NumPy & Pandas
+
+1. **Convert a NumPy array to a Pandas DataFrame.**
+2. **Convert a Pandas DataFrame column to a NumPy array.**
+3. **Create a DataFrame from a NumPy structured array.**
+4. **Convert a Pandas Series to a NumPy array.**
+5. **Apply NumPy functions (e.g., mean, median) to a Pandas column.**
+6. **Create a NumPy array and store it as a Pandas DataFrame.**
+7. **Use NumPy to generate a random dataset and analyze it using Pandas.**
+8. **Convert a NumPy array to a Pandas Series.**
+9. **Apply Pandas functions on a NumPy array.**
+10. **Perform matrix multiplication using NumPy arrays and store results in a DataFrame.**
+11. **Use NumPy to create an identity matrix and convert it to a Pandas DataFrame.**
+12. **Generate random values with NumPy and store them in a Pandas DataFrame.**
+13. **Filter NumPy arrays and convert the filtered data into a DataFrame.**
+14. **Sort a NumPy array and store it as a Pandas column.**
+15. **Find unique values using NumPy and store results in a Pandas DataFrame.**
+16. **Use NumPy to replace values in a Pandas column.**
+17. **Convert a NumPy diagonal matrix to a Pandas DataFrame.**
+18. **Perform cumulative sum using NumPy on a DataFrame column.**
+19. **Apply NumPy broadcasting on a Pandas DataFrame.**
+20. **Compute correlation using NumPy and validate results with Pandas.**
+21. **Merge two Pandas DataFrames using NumPy-generated keys.**
+22. **Use NumPy to fill missing values in a Pandas DataFrame.**
+23. **Normalize a Pandas DataFrame column using NumPy operations.**
+24. **Generate a histogram using NumPy and visualize results with Pandas.**
+25. **Convert a NumPy 3D array into multiple Pandas DataFrames.**
+
