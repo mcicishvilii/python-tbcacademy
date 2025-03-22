@@ -2,7 +2,8 @@
 # 1. **Create a NumPy Array:** Create a 1D array of numbers from 0 to 9.
 import numpy as np
 import pandas as pd
-arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])
+arr = np.array([20, 441, 24, 13, 4, 54, 64, 123127, 81])
+arr_2 = np.array([123, 1, 3, 95, 4, 54, 64, 123, 33])
 
 # * * * * * *
 # 2. **Array Properties:** Print the shape, size, and data type of an array.
@@ -55,4 +56,26 @@ arr = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8])
 
 # * * * * * *
 # 9. **Random Number Generation:** Generate a 5x5 array of random numbers between 0 and 1.
+# matrix_5x5 = np.random.rand(5, 5)
+# print(matrix_5x5)
 
+# * * * * * *
+# **Sorting an Array:** Sort a NumPy array in ascending order.
+# sorted_arr = np.sort(arr)
+# print(sorted_arr)
+
+# * * * * * *
+# 11. **Concatenation:** Concatenate two 1D arrays.
+# concat_arr = np.concat([arr, arr_2])
+# print(concat_arr)
+
+# * * * * * *
+# 12. **Stacking:** Stack two 1D arrays vertically and horizontally.
+vstacked_arr = np.vstack([arr, arr_2])
+hstacked_arr = np.hstack([arr, arr_2])
+
+print(f"array 1: {arr}, array 2: {arr_2}")
+print("******")
+print(f"{vstacked_arr} vertical")
+print("******")
+print(f"{hstacked_arr} horizontal")
