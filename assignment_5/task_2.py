@@ -1,7 +1,7 @@
 for i in range(1, 10):
-    j = i
-    print(" \n")
-    while j < 10:
-        item = []
-        print(" " * i, f"{i} * {j} = {i * j}")
+    line = ""
+    j = 1
+    while j <= i:
+        line += f"{j} * {i} = {j*i}     "
         j += 1
+    print(line)
