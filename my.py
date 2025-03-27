@@ -2,8 +2,8 @@
 # 1. **Create a NumPy Array:** Create a 1D array of numbers from 0 to 9.
 import numpy as np
 import pandas as pd
+
 arr = np.array([20, 441, 24, 13, 4, 54, 64, 123127, 81])
-arr_2 = np.array([123, 1, 3, 95, 4, 54, 64, 123, 33])
 
 # * * * * * *
 # 2. **Array Properties:** Print the shape, size, and data type of an array.
@@ -26,7 +26,7 @@ arr_2 = np.array([123, 1, 3, 95, 4, 54, 64, 123, 33])
 # for item in arr:
 #     if item > 5:
 #         filtered_arr.append(item)
-        
+
 # print(np.array(filtered_arr))
 
 # * * * * * *
@@ -71,11 +71,14 @@ arr_2 = np.array([123, 1, 3, 95, 4, 54, 64, 123, 33])
 
 # * * * * * *
 # 12. **Stacking:** Stack two 1D arrays vertically and horizontally.
-vstacked_arr = np.vstack([arr, arr_2])
-hstacked_arr = np.hstack([arr, arr_2])
+# vstacked_arr = np.vstack([arr, arr_2])
+# hstacked_arr = np.hstack([arr, arr_2])
 
-print(f"array 1: {arr}, array 2: {arr_2}")
-print("******")
-print(f"{vstacked_arr} vertical")
-print("******")
-print(f"{hstacked_arr} horizontal")
+# print(f"array 1: {arr}, array 2: {arr_2}")
+# print("******")
+# print(f"{vstacked_arr} vertical")
+# print("******")
+# print(f"{hstacked_arr} horizontal")
+
+# * * * * * *
+# 13. **Statistics:** Compute the mean, median, and standard deviation of an array.
