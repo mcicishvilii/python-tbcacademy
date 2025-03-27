@@ -5,7 +5,6 @@ random_number = random.randint(1, 100)
 
 while attempts < 10:
     input_number = int(input("enter number: "))
-    
     if input_number > random_number:
         print("high")
     elif input_number < random_number:
@@ -14,6 +13,6 @@ while attempts < 10:
         print("gilocav")
         break
     attempts += 1
-    if(attempts == 10):
+    if attempts == 10:
         print("you lost :(")
         break
