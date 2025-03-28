@@ -1,7 +1,7 @@
 import random
 
 attempts = 0
-random_number = random.randint(1, 100)
+random_number = random.randint(0, 100)
 
 while attempts < 10:
     input_number = int(input("enter number: "))
@@ -10,9 +10,9 @@ while attempts < 10:
     elif input_number < random_number:
         print("low")
     else:
-        print("gilocav")
+        print("you are winner!")
         break
     attempts += 1
     if attempts == 10:
-        print("you lost :(")
+        print("computer is winner")
         break
