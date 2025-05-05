@@ -1,0 +1,369 @@
+{
+    "ExchangeRates": {
+        "ExchangeRate": [
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "GBP",
+                "CurrencyRateBuy": "0.7856",
+                "CurrencyRateSell": "0.7856",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "1",
+                "CurrencyRateSell": "1",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "GBP",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "1.2729",
+                "CurrencyRateSell": "1.2729",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "1",
+                "CurrencyRateSell": "1",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "GBP",
+                "CurrencyRateBuy": "0.7564",
+                "CurrencyRateSell": "0.8183",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "2.788",
+                "CurrencyRateSell": "2.912",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "GBP",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "1.222",
+                "CurrencyRateSell": "1.322",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "0.3434",
+                "CurrencyRateSell": "0.3587",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "GBP",
+                "CurrencyRateBuy": "0.2774",
+                "CurrencyRateSell": "0.2774",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "2.8323",
+                "CurrencyRateSell": "2.8323",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GBP",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "3.6052",
+                "CurrencyRateSell": "3.6052",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "0.3531",
+                "CurrencyRateSell": "0.3531",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "GBP",
+                "CurrencyRateBuy": "0.2686",
+                "CurrencyRateSell": "0.2829",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "1",
+                "CurrencyRateSell": "1",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GBP",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "3.535",
+                "CurrencyRateSell": "3.723",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "1",
+                "CurrencyRateSell": "1",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "EUR",
+                "CurrencyRateBuy": "0.9523",
+                "CurrencyRateSell": "0.9523",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "EUR",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "2.914",
+                "CurrencyRateSell": "3.066",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "EUR",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "1.0501",
+                "CurrencyRateSell": "1.0501",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "EUR",
+                "CurrencyRateBuy": "0.3262",
+                "CurrencyRateSell": "0.3432",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "USD",
+                "CurrencyCodeTo": "EUR",
+                "CurrencyRateBuy": "0.9200",
+                "CurrencyRateSell": "0.9911",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "EUR",
+                "CurrencyCodeTo": "GEL",
+                "CurrencyRateBuy": "2.9742",
+                "CurrencyRateSell": "2.9742",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            },
+            {
+                "CurrencyCodeFrom": "EUR",
+                "CurrencyCodeTo": "USD",
+                "CurrencyRateBuy": "1.009",
+                "CurrencyRateSell": "1.087",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "COMMERCIAL"
+            },
+            {
+                "CurrencyCodeFrom": "GEL",
+                "CurrencyCodeTo": "EUR",
+                "CurrencyRateBuy": "0.3362",
+                "CurrencyRateSell": "0.3362",
+                "ExchangeRateMultiplicity": "1",
+                "ExchangeRateType": "NBG"
+            }
+        ]
+    },
+    "Application": {
+        "TBCBank": {
+            "Request": {
+                "ApplicationData": {
+                    "Currency": "USD",
+                    "ApplicationMinData": {
+                        "RequestedAmount": 1000,
+                        "RequestedRepayment": 2000,
+                        "RequestedAmountGEL": 2832.3,
+                        "RequestedAmountInLoanCurrency": 1000.0,
+                        "RequestedRepaymentGEL": 5664.6,
+                        "RequestedRepaymentInLoanCurrency": 2000.0
+                    }
+                },
+                "Applicants": {
+                    "Applicant": {
+                        "InternalDataInfo": {
+                            "BasicCreditHistory": {
+                                "Loan": [
+                                    {
+                                        "LimitCurrency": "USD",
+                                        "AccruedInsurance": 50,
+                                        "AccruedInterest": 100,
+                                        "AccruedPenalty": 50,
+                                        "PaidPenalty": 10,
+                                        "BusinessMonthlyPaymentAmount": 200,
+                                        "InsurancePastDueAmount": 30,
+                                        "InsurancePaymentAmount": 40,
+                                        "InterestPastDueAmount": 50,
+                                        "InterestPaymentAmount": 60,
+                                        "LimitAmount": 5000,
+                                        "MonthlyPaymentAmount": 300,
+                                        "MaxMonthlyPaymentAmount": 400,
+                                        "PenaltyAmount": 25,
+                                        "OutstandingAmount": 4500,
+                                        "PastDueAmount": 100,
+                                        "PrincipalPastDueAmount": 80,
+                                        "PrincipalPaymentAmount": 200,
+                                        "RefinanceBalance": 3000,
+                                        "SAAccruedPenalty": 15,
+                                        "TotalAmountToCover": 4700,
+                                        "Securities": {
+                                            "Security": {
+                                                "Currency": "USD",
+                                                "SecurityValue": 1500
+                                            }
+                                        }
+                                    }
+                                ]
+                            },
+                            "APMApplicationHistory": {
+                                "APMApplication": {
+                                    "Currency": "GEL",
+                                    "Amount": 2000,
+                                    "MonthlyPaymentAmount": 150,
+                                    "MonthlyAmountPayment_Variable": 100,
+                                    "LongTermMonthlyPaymentAmount": 120,
+                                    "AmountGEL": 2000.0,
+                                    "MonthlyPaymentAmountGEL": 150.0,
+                                    "MonthlyAmountPaymentVariableGEL": 100.0,
+                                    "LongTermMonthlyPaymentAmountGEL": 120.0,
+                                    "AmountInLoanCurrency": 706.2,
+                                    "MonthlyPaymentAmountInLoanCurrency": 52.97,
+                                    "MonthlyAmountPayment_VariableGEL": 100.0,
+                                    "MonthlyAmountPayment_VariableInLoanCurrency": 35.31,
+                                    "LongTermMonthlyPaymentAmountInLoanCurrency": 42.37
+                                }
+                            },
+                            "Accounts": {
+                                "Account": {
+                                    "AccountPledge": {
+                                        "RestrictionCurrency": "GEL",
+                                        "RestrictionAmount": 500,
+                                        "RestrictionAmountGEL": 500.0,
+                                        "RestrictionAmountInLoanCurrency": 176.55
+                                    }
+                                }
+                            },
+                            "Deposits": {
+                                "DepositInfo": {
+                                    "DepositCurrency": "USD",
+                                    "DepositAmount": 3000,
+                                    "DepositAmountGEL": 8496.9,
+                                    "DepositAmountInLoanCurrency": 3000.0
+                                }
+                            },
+                            "TransferTransactionHistory": {
+                                "TransferAmounts": {
+                                    "TransferAmount": {
+                                        "Currency": "EUR",
+                                        "Amount": 700,
+                                        "AmountGEL": 2081.94,
+                                        "AmountInLoanCurrency": 735.07
+                                    }
+                                }
+                            }
+                        },
+                        "CreditBureauInfo": {
+                            "BasicCreditHistory": {
+                                "Loan": [
+                                    {
+                                        "LimitCurrency": "USD",
+                                        "AccruedPenalty": 40,
+                                        "LimitAmount": 6000,
+                                        "MonthlyPaymentAmount": 350,
+                                        "MaxMonthlyPaymentAmount": 450,
+                                        "OutstandingAmount": 5500,
+                                        "PastDueAmount": 120,
+                                        "PrincipalPastDueAmount": 90,
+                                        "RefinanceBalance": 4000,
+                                        "Securities": {
+                                            "Security": {
+                                                "Currency": "EUR",
+                                                "SecurityValue": 2000
+                                            }
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        "OtherLiabilities": {
+                            "OtherLiability": {
+                                "LimitCurrency": "GEL",
+                                "LimitAmount": 10000,
+                                "MonthlyPaymentAmount": 500,
+                                "OutstandingAmount": 8000,
+                                "TotalRefinanceBalanceAmount": 7000,
+                                "RefinanceBalance": 6500,
+                                "LimitAmountGEL": 10000.0,
+                                "MonthlyPaymentAmountGEL": 500.0,
+                                "OutstandingAmountGEL": 8000.0,
+                                "TotalRefinanceBalanceAmountGEL": 7000.0,
+                                "RefinanceBalanceGEL": 6500.0,
+                                "LimitAmountInLoanCurrency": 3531.0,
+                                "MonthlyPaymentAmountInLoanCurrency": 176.55,
+                                "OutstandingAmountInLoanCurrency": 2824.8,
+                                "TotalRefinanceBalanceAmountInLoanCurrency": 2471.7,
+                                "RefinanceBalanceInLoanCurrency": 2295.15
+                            }
+                        },
+                        "Jobs": {
+                            "JobInfo": {
+                                "IncomeCurrency": "USD",
+                                "IncomeAmount": 1000,
+                                "VerifideIncome": 1800,
+                                "Expense": 800,
+                                "NBGMaxNetIncome": 1500,
+                                "IncomeAmountGEL": 2832.3,
+                                "IncomeAmountInLoanCurrency": 1000.0,
+                                "VerifideIncomeGEL": 5098.14,
+                                "VerifideIncomeInLoanCurrency": 1800.0,
+                                "ExpenseGEL": 2265.84,
+                                "ExpenseInLoanCurrency": 800.0,
+                                "NBGMaxNetIncomeGEL": 4248.45,
+                                "NBGMaxNetIncomeInLoanCurrency": 1500.0
+                            }
+                        },
+                        "VerifiedIncome": {
+                            "IncomeCurrency": "EUR",
+                            "VerifideIncome": 1600,
+                            "VerifideIncomeGEL": 4758.72,
+                            "VerifideIncomeInLoanCurrency": 1680.16
+                        }
+                    }
+                }
+            }
+        }
+    },
+    "OtherData": {
+        "SomeKey": "SomeValue"
+    }
+}
