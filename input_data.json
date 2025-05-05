@@ -211,7 +211,7 @@
                           "BasicCreditHistory": {
                               "Loan": [
                                   {
-                                      "LimitCurrency": "USD",
+                                      "LimitCurrency": "GEL",
                                       "AccruedInsurance": 50,
                                       "AccruedInterest": 100,
                                       "AccruedPenalty": 50,

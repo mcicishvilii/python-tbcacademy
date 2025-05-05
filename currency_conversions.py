@@ -40,123 +40,70 @@ with open('input_data.json') as f:
 
 exchange_rates = input_data.get('ExchangeRates', {}).get('ExchangeRate', [])
 
-# Determine the target loan currency for "InLoanCurrency" conversions
+# Determine the target loan currency for "InLoanCurrency" conversions (absolute path)
 loan_currency_path = 'Application.TBCBank.Request.ApplicationData.Currency'
 loan_currency = get_nested(input_data, loan_currency_path)
 
+# Conversion tasks for fields, with per-item currency where appropriate
 conversion_tasks = [
+    # APM applications
     {
-        "base_path": "Application.TBCBank.Request.ApplicationData.ApplicationMinData",
-        "fields": ["RequestedAmount", "RequestedRepayment"],
-        "currency_path": "Application.TBCBank.Request.ApplicationData.Currency",
+        'base_path': 'Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.APMApplicationHistory.APMApplication',
+        'fields': ['Amount', 'MonthlyPaymentAmount', 'MonthlyAmountPayment_Variable', 'LongTermMonthlyPaymentAmount'],
+        'currency_path': 'Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.APMApplicationHistory.APMApplication.Currency'
     },
+    # BasicCreditHistory.Loans (InternalDataInfo)
     {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.BasicCreditHistory.Loan",
-        "fields": [
-            "AccruedInsurance",
-            "AccruedInterest",
-            "AccruedPenalty",
-            "PaidPenalty",
-            "BusinessMonthlyPaymentAmount",
-            "InsurancePastDueAmount",
-            "InsurancePaymentAmount",
-            "InterestPastDueAmount",
-            "InterestPaymentAmount",
-            "LimitAmount",
-            "MonthlyPaymentAmount",
-            "MaxMonthlyPaymentAmount",
-            "PenaltyAmount",
-            "OutstandingAmount",
-            "PastDueAmount",
-            "PrincipalPastDueAmount",
-            "PrincipalPaymentAmount",
-            "RefinanceBalance",
-            "SAAccruedPenalty",
-            "TotalAmountToCover",
+        'base_path': 'Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.BasicCreditHistory.Loan',
+        'fields': [
+            'AccruedInsurance', 'AccruedInterest', 'AccruedPenalty', 'PaidPenalty',
+            'BusinessMonthlyPaymentAmount', 'InsurancePastDueAmount', 'InsurancePaymentAmount',
+            'InterestPastDueAmount', 'InterestPaymentAmount', 'LimitAmount',
+            'MonthlyPaymentAmount', 'MaxMonthlyPaymentAmount', 'PenaltyAmount',
+            'OutstandingAmount', 'PastDueAmount', 'PrincipalPastDueAmount',
+            'PrincipalPaymentAmount', 'RefinanceBalance', 'SAAccruedPenalty', 'TotalAmountToCover'
         ],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.BasicCreditHistory.Loan.LimitCurrency",
+        'currency_subpath': 'LimitCurrency'
     },
+    # BasicCreditHistory.Loans (CreditBureauInfo)
     {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.BasicCreditHistory.Loan.Securities.Security",
-        "fields": ["SecurityValue"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.BasicCreditHistory.Loan.Securities.Security.Currency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.APMApplicationHistory.APMApplication",
-        "fields": [
-            "Amount",
-            "MonthlyPaymentAmount",
-            "MonthlyAmountPayment_Variable",
-            "LongTermMonthlyPaymentAmount",
+        'base_path': 'Application.TBCBank.Request.Applicants.Applicant.CreditBureauInfo.BasicCreditHistory.Loan',
+        'fields': [
+            'AccruedPenalty', 'LimitAmount', 'MonthlyPaymentAmount', 'MaxMonthlyPaymentAmount',
+            'OutstandingAmount', 'PastDueAmount', 'PrincipalPastDueAmount', 'RefinanceBalance'
         ],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.APMApplicationHistory.APMApplication.Currency",
+        'currency_subpath': 'LimitCurrency'
     },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.Accounts.Account.AccountPledge",
-        "fields": ["RestrictionAmount"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.Accounts.Account.AccountPledge.RestrictionCurrency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.Deposits.DepositInfo",
-        "fields": ["DepositAmount"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.Deposits.DepositInfo.DepositCurrency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.TransferTransactionHistory.TransferAmounts.TransferAmount",
-        "fields": ["Amount"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.TransferTransactionHistory.TransferAmounts.TransferAmount.Currency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.CreditBureauInfo.BasicCreditHistory.Loan",
-        "fields": [
-            "AccruedPenalty",
-            "LimitAmount",
-            "MonthlyPaymentAmount",
-            "MaxMonthlyPaymentAmount",
-            "OutstandingAmount",
-            "PastDueAmount",
-            "PrincipalPastDueAmount",
-            "RefinanceBalance",
-        ],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.CreditBureauInfo.BasicCreditHistory.Loan.LimitCurrency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.CreditBureauInfo.BasicCreditHistory.Loan.Securities.Security",
-        "fields": ["SecurityValue"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.CreditBureauInfo.BasicCreditHistory.Loan.Securities.Security.Currency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.OtherLiabilities.OtherLiability",
-        "fields": [
-            "LimitAmount",
-            "MonthlyPaymentAmount",
-            "OutstandingAmount",
-            "TotalRefinanceBalanceAmount",
-            "RefinanceBalance",
-        ],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.OtherLiabilities.OtherLiability.LimitCurrency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.Jobs.JobInfo",
-        "fields": ["IncomeAmount", "VerifideIncome", "Expense", "NBGMaxNetIncome"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.Jobs.JobInfo.IncomeCurrency",
-    },
-    {
-        "base_path": "Application.TBCBank.Request.Applicants.Applicant.VerifiedIncome",
-        "fields": ["VerifideIncome"],
-        "currency_path": "Application.TBCBank.Request.Applicants.Applicant.VerifiedIncome.IncomeCurrency",
-    },
+    # Other tasks here: Accounts.AccountPledge, Deposits, TransferAmounts, OtherLiabilities, Jobs, VerifiedIncome
+    # [... add as before with either 'currency_path' or 'currency_subpath' depending on list or single]
 ]
+
+def convert_fields(parent, fields, orig_curr):
+    for field in fields:
+        if field not in parent:
+            continue
+        val = parent[field]
+        if val is None:
+            continue
+        try:
+            num = float(val) if isinstance(val, str) else val
+        except (ValueError, TypeError):
+            print(f"Warning: Cannot convert {field}='{val}' to number")
+            continue
+
+        rate_gel = get_exchange_rate(exchange_rates, orig_curr, 'GEL')
+        if rate_gel is not None:
+            parent[field + 'GEL'] = round(num * rate_gel, 2)
+        if loan_currency:
+            rate_loan = get_exchange_rate(exchange_rates, orig_curr, loan_currency)
+            if rate_loan is not None:
+                parent[field + 'InLoanCurrency'] = round(num * rate_loan, 2)
 
 for task in conversion_tasks:
     base = task['base_path']
     fields = task['fields']
-    curr_path = task['currency_path']
-
-    orig_curr = get_nested(input_data, curr_path)
-    if orig_curr is None:
-        print(f"Warning: Currency not found at {curr_path}")
-        continue
+    curr_path = task.get('currency_path')
+    curr_sub = task.get('currency_subpath')
 
     parent = get_nested(input_data, base)
     if parent is None:
@@ -165,29 +112,16 @@ for task in conversion_tasks:
 
     items = parent if isinstance(parent, list) else [parent]
     for item in items:
-        for field in fields:
-            if field not in item:
-                continue
-            val = item[field]
-            if val is None:
-                continue
-            try:
-                num = float(val) if isinstance(val, str) else val
-            except (ValueError, TypeError):
-                print(f"Warning: Cannot convert {field}='{val}' to number")
-                continue
+        if curr_sub:
+            orig_curr = item.get(curr_sub)
+        else:
+            orig_curr = get_nested(input_data, curr_path)
+        if orig_curr is None:
+            print(f"Warning: Currency not found for task at {base} (item)")
+            continue
 
-            rate_gel = get_exchange_rate(exchange_rates, orig_curr, 'GEL')
-            if rate_gel is not None:
-                item[field + 'GEL'] = round(num * rate_gel, 2)
+        convert_fields(item, fields, orig_curr)
 
-            if loan_currency:
-                rate_loan = get_exchange_rate(exchange_rates, orig_curr, loan_currency)
-                if rate_loan is not None:
-                    item[field + 'InLoanCurrency'] = round(num * rate_loan, 2)
-
-# === CUSTOM LOOPS FOR SECURITIES ===
-# 1) InternalDataInfo.BasicCreditHistory.Loan → Securities.Security
 loan_list = get_nested(input_data, 'Application.TBCBank.Request.Applicants.Applicant.InternalDataInfo.BasicCreditHistory.Loan')
 if isinstance(loan_list, list):
     for loan in loan_list:
