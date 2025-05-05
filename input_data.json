@@ -247,11 +247,7 @@
                                   "Amount": 2000,
                                   "MonthlyPaymentAmount": 150,
                                   "MonthlyAmountPayment_Variable": 100,
-                                  "LongTermMonthlyPaymentAmount": 120,
-                                  "AmountGEL": 2000.0,
-                                  "MonthlyPaymentAmountGEL": 150.0,
-                                  "MonthlyAmountPaymentVariableGEL": 100.0,
-                                  "LongTermMonthlyPaymentAmountGEL": 120.0
+                                  "LongTermMonthlyPaymentAmount": 120
                               }
                           },
                           "Accounts": {

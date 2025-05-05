@@ -1,0 +1,332 @@
+Set NBGMaxNetIncomeInLoanCurrency = 1500.0
+PS C:\Users\MiTsitsishvili\Desktop\kursi\python-tbcacademy> & "C:/Program Files/Python313/python.exe" c:/Users/MiTsitsishvili/Desktop/kursi/python-tbcacademy/currency_conversions.py
+Processing field RequestedAmount in parent: {'RequestedAmount': 1000, 'RequestedRepayment': 2000}
+Found value 1000 for RequestedAmount
+Converted RequestedAmount to numeric: 1000
+Rate to GEL: 2.8323
+Set RequestedAmountGEL = 2832.3
+Rate to loan currency: 1.0
+Set RequestedAmountInLoanCurrency = 1000.0
+Processing field RequestedRepayment in parent: {'RequestedAmount': 1000, 'RequestedRepayment': 2000, 'RequestedAmountGEL': 2832.3, 'RequestedAmountInLoanCurrency': 1000.0}
+Found value 2000 for RequestedRepayment
+Converted RequestedRepayment to numeric: 2000
+Rate to GEL: 2.8323
+Set RequestedRepaymentGEL = 5664.6
+Rate to loan currency: 1.0
+Set RequestedRepaymentInLoanCurrency = 2000.0
+Processing field AccruedInsurance in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}}
+Found value 50 for AccruedInsurance
+Converted AccruedInsurance to numeric: 50
+Rate to GEL: 2.8323
+Set AccruedInsuranceGEL = 141.62
+Rate to loan currency: 1.0
+Set AccruedInsuranceInLoanCurrency = 50.0
+Processing field AccruedInterest in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0}
+Found value 100 for AccruedInterest
+Converted AccruedInterest to numeric: 100
+Rate to GEL: 2.8323
+Set AccruedInterestGEL = 283.23
+Rate to loan currency: 1.0
+Set AccruedInterestInLoanCurrency = 100.0
+Processing field AccruedPenalty in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0}
+Found value 50 for AccruedPenalty
+Converted AccruedPenalty to numeric: 50
+Rate to GEL: 2.8323
+Set AccruedPenaltyGEL = 141.62
+Rate to loan currency: 1.0
+Set AccruedPenaltyInLoanCurrency = 50.0
+Processing field PaidPenalty in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0}
+Found value 10 for PaidPenalty
+Converted PaidPenalty to numeric: 10
+Rate to GEL: 2.8323
+Set PaidPenaltyGEL = 28.32
+Rate to loan currency: 1.0
+Set PaidPenaltyInLoanCurrency = 10.0
+Processing field BusinessMonthlyPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0}
+Found value 200 for BusinessMonthlyPaymentAmount
+Converted BusinessMonthlyPaymentAmount to numeric: 200
+Rate to GEL: 2.8323
+Set BusinessMonthlyPaymentAmountGEL = 566.46
+Rate to loan currency: 1.0
+Set BusinessMonthlyPaymentAmountInLoanCurrency = 200.0
+Processing field InsurancePastDueAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0}
+Found value 30 for InsurancePastDueAmount
+Converted InsurancePastDueAmount to numeric: 30
+Rate to GEL: 2.8323
+Set InsurancePastDueAmountGEL = 84.97
+Rate to loan currency: 1.0
+Set InsurancePastDueAmountInLoanCurrency = 30.0
+Processing field InsurancePaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0}
+Found value 40 for InsurancePaymentAmount
+Converted InsurancePaymentAmount to numeric: 40
+Rate to GEL: 2.8323
+Set InsurancePaymentAmountGEL = 113.29
+Rate to loan currency: 1.0
+Set InsurancePaymentAmountInLoanCurrency = 40.0
+Processing field InterestPastDueAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0}
+Found value 50 for InterestPastDueAmount
+Converted InterestPastDueAmount to numeric: 50
+Rate to GEL: 2.8323
+Set InterestPastDueAmountGEL = 141.62
+Rate to loan currency: 1.0
+Set InterestPastDueAmountInLoanCurrency = 50.0
+Processing field InterestPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0}
+Found value 60 for InterestPaymentAmount
+Converted InterestPaymentAmount to numeric: 60
+Rate to GEL: 2.8323
+Set InterestPaymentAmountGEL = 169.94
+Rate to loan currency: 1.0
+Set InterestPaymentAmountInLoanCurrency = 60.0
+Processing field LimitAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0}
+Found value 5000 for LimitAmount
+Converted LimitAmount to numeric: 5000
+Rate to GEL: 2.8323
+Set LimitAmountGEL = 14161.5
+Rate to loan currency: 1.0
+Set LimitAmountInLoanCurrency = 5000.0
+Processing field MonthlyPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0}
+Found value 300 for MonthlyPaymentAmount
+Converted MonthlyPaymentAmount to numeric: 300
+Rate to GEL: 2.8323
+Set MonthlyPaymentAmountGEL = 849.69
+Rate to loan currency: 1.0
+Set MonthlyPaymentAmountInLoanCurrency = 300.0
+Processing field MaxMonthlyPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0}
+Found value 400 for MaxMonthlyPaymentAmount
+Converted MaxMonthlyPaymentAmount to numeric: 400
+Rate to GEL: 2.8323
+Set MaxMonthlyPaymentAmountGEL = 1132.92
+Rate to loan currency: 1.0
+Set MaxMonthlyPaymentAmountInLoanCurrency = 400.0
+Processing field PenaltyAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0}
+Found value 25 for PenaltyAmount
+Converted PenaltyAmount to numeric: 25
+Rate to GEL: 2.8323
+Set PenaltyAmountGEL = 70.81
+Rate to loan currency: 1.0
+Set PenaltyAmountInLoanCurrency = 25.0
+Processing field OutstandingAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0}
+Found value 4500 for OutstandingAmount
+Converted OutstandingAmount to numeric: 4500
+Rate to GEL: 2.8323
+Set OutstandingAmountGEL = 12745.35
+Rate to loan currency: 1.0
+Set OutstandingAmountInLoanCurrency = 4500.0
+Processing field PastDueAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0, 'OutstandingAmountGEL': 12745.35, 'OutstandingAmountInLoanCurrency': 4500.0}
+Found value 100 for PastDueAmount
+Converted PastDueAmount to numeric: 100
+Rate to GEL: 2.8323
+Set PastDueAmountGEL = 283.23
+Rate to loan currency: 1.0
+Set PastDueAmountInLoanCurrency = 100.0
+Processing field PrincipalPastDueAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0, 'OutstandingAmountGEL': 12745.35, 'OutstandingAmountInLoanCurrency': 4500.0, 'PastDueAmountGEL': 283.23, 'PastDueAmountInLoanCurrency': 100.0}
+Found value 80 for PrincipalPastDueAmount
+Converted PrincipalPastDueAmount to numeric: 80
+Rate to GEL: 2.8323
+Set PrincipalPastDueAmountGEL = 226.58
+Rate to loan currency: 1.0
+Set PrincipalPastDueAmountInLoanCurrency = 80.0
+Processing field PrincipalPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0, 'OutstandingAmountGEL': 12745.35, 'OutstandingAmountInLoanCurrency': 4500.0, 'PastDueAmountGEL': 283.23, 'PastDueAmountInLoanCurrency': 100.0, 'PrincipalPastDueAmountGEL': 226.58, 'PrincipalPastDueAmountInLoanCurrency': 80.0}
+Found value 200 for PrincipalPaymentAmount
+Converted PrincipalPaymentAmount to numeric: 200
+Rate to GEL: 2.8323
+Set PrincipalPaymentAmountGEL = 566.46
+Rate to loan currency: 1.0
+Set PrincipalPaymentAmountInLoanCurrency = 200.0
+Processing field RefinanceBalance in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0, 'OutstandingAmountGEL': 12745.35, 'OutstandingAmountInLoanCurrency': 4500.0, 'PastDueAmountGEL': 283.23, 'PastDueAmountInLoanCurrency': 100.0, 'PrincipalPastDueAmountGEL': 226.58, 'PrincipalPastDueAmountInLoanCurrency': 80.0, 'PrincipalPaymentAmountGEL': 566.46, 'PrincipalPaymentAmountInLoanCurrency': 200.0}
+Found value 3000 for RefinanceBalance
+Converted RefinanceBalance to numeric: 3000
+Rate to GEL: 2.8323
+Set RefinanceBalanceGEL = 8496.9
+Rate to loan currency: 1.0
+Set RefinanceBalanceInLoanCurrency = 3000.0
+Processing field SAAccruedPenalty in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0, 'OutstandingAmountGEL': 12745.35, 'OutstandingAmountInLoanCurrency': 4500.0, 'PastDueAmountGEL': 283.23, 'PastDueAmountInLoanCurrency': 100.0, 'PrincipalPastDueAmountGEL': 226.58, 'PrincipalPastDueAmountInLoanCurrency': 80.0, 'PrincipalPaymentAmountGEL': 566.46, 'PrincipalPaymentAmountInLoanCurrency': 200.0, 'RefinanceBalanceGEL': 8496.9, 'RefinanceBalanceInLoanCurrency': 3000.0}
+Found value 15 for SAAccruedPenalty
+Converted SAAccruedPenalty to numeric: 15
+Rate to GEL: 2.8323
+Set SAAccruedPenaltyGEL = 42.48
+Rate to loan currency: 1.0
+Set SAAccruedPenaltyInLoanCurrency = 15.0
+Processing field TotalAmountToCover in parent: {'LimitCurrency': 'USD', 'AccruedInsurance': 50, 'AccruedInterest': 100, 'AccruedPenalty': 50, 'PaidPenalty': 10, 'BusinessMonthlyPaymentAmount': 200, 'InsurancePastDueAmount': 30, 'InsurancePaymentAmount': 40, 'InterestPastDueAmount': 50, 'InterestPaymentAmount': 60, 'LimitAmount': 5000, 'MonthlyPaymentAmount': 300, 'MaxMonthlyPaymentAmount': 400, 'PenaltyAmount': 25, 'OutstandingAmount': 4500, 'PastDueAmount': 100, 'PrincipalPastDueAmount': 80, 'PrincipalPaymentAmount': 200, 'RefinanceBalance': 3000, 'SAAccruedPenalty': 15, 'TotalAmountToCover': 4700, 'Securities': {'Security': {'Currency': 'USD', 'SecurityValue': 1500}}, 'AccruedInsuranceGEL': 141.62, 'AccruedInsuranceInLoanCurrency': 50.0, 'AccruedInterestGEL': 283.23, 'AccruedInterestInLoanCurrency': 100.0, 'AccruedPenaltyGEL': 141.62, 'AccruedPenaltyInLoanCurrency': 50.0, 'PaidPenaltyGEL': 28.32, 'PaidPenaltyInLoanCurrency': 10.0, 'BusinessMonthlyPaymentAmountGEL': 566.46, 'BusinessMonthlyPaymentAmountInLoanCurrency': 200.0, 'InsurancePastDueAmountGEL': 84.97, 'InsurancePastDueAmountInLoanCurrency': 30.0, 'InsurancePaymentAmountGEL': 113.29, 'InsurancePaymentAmountInLoanCurrency': 40.0, 'InterestPastDueAmountGEL': 141.62, 'InterestPastDueAmountInLoanCurrency': 50.0, 'InterestPaymentAmountGEL': 169.94, 'InterestPaymentAmountInLoanCurrency': 60.0, 'LimitAmountGEL': 14161.5, 'LimitAmountInLoanCurrency': 5000.0, 'MonthlyPaymentAmountGEL': 849.69, 'MonthlyPaymentAmountInLoanCurrency': 300.0, 'MaxMonthlyPaymentAmountGEL': 1132.92, 'MaxMonthlyPaymentAmountInLoanCurrency': 400.0, 'PenaltyAmountGEL': 70.81, 'PenaltyAmountInLoanCurrency': 25.0, 'OutstandingAmountGEL': 12745.35, 'OutstandingAmountInLoanCurrency': 4500.0, 'PastDueAmountGEL': 283.23, 'PastDueAmountInLoanCurrency': 100.0, 'PrincipalPastDueAmountGEL': 226.58, 'PrincipalPastDueAmountInLoanCurrency': 80.0, 'PrincipalPaymentAmountGEL': 566.46, 'PrincipalPaymentAmountInLoanCurrency': 200.0, 'RefinanceBalanceGEL': 8496.9, 'RefinanceBalanceInLoanCurrency': 3000.0, 'SAAccruedPenaltyGEL': 42.48, 'SAAccruedPenaltyInLoanCurrency': 15.0}
+Found value 4700 for TotalAmountToCover
+Converted TotalAmountToCover to numeric: 4700
+Rate to GEL: 2.8323
+Set TotalAmountToCoverGEL = 13311.81
+Rate to loan currency: 1.0
+Set TotalAmountToCoverInLoanCurrency = 4700.0
+Processing field Amount in parent: {'Currency': 'GEL', 'Amount': 2000, 'MonthlyPaymentAmount': 150, 'MonthlyAmountPayment_Variable': 100, 'LongTermMonthlyPaymentAmount': 120, 'AmountGEL': 2000.0, 'MonthlyPaymentAmountGEL': 150.0, 'MonthlyAmountPaymentVariableGEL': 100.0, 'LongTermMonthlyPaymentAmountGEL': 120.0}
+Found value 2000 for Amount
+Converted Amount to numeric: 2000
+Rate to GEL: 1.0
+Set AmountGEL = 2000.0
+Rate to loan currency: 0.3531
+Set AmountInLoanCurrency = 706.2
+Processing field MonthlyPaymentAmount in parent: {'Currency': 'GEL', 'Amount': 2000, 'MonthlyPaymentAmount': 150, 'MonthlyAmountPayment_Variable': 100, 'LongTermMonthlyPaymentAmount': 120, 'AmountGEL': 2000.0, 'MonthlyPaymentAmountGEL': 150.0, 'MonthlyAmountPaymentVariableGEL': 100.0, 'LongTermMonthlyPaymentAmountGEL': 120.0, 'AmountInLoanCurrency': 706.2}
+Found value 150 for MonthlyPaymentAmount
+Converted MonthlyPaymentAmount to numeric: 150
+Rate to GEL: 1.0
+Set MonthlyPaymentAmountGEL = 150.0
+Rate to loan currency: 0.3531
+Set MonthlyPaymentAmountInLoanCurrency = 52.97
+Processing field MonthlyAmountPayment_Variable in parent: {'Currency': 'GEL', 'Amount': 2000, 'MonthlyPaymentAmount': 150, 'MonthlyAmountPayment_Variable': 100, 'LongTermMonthlyPaymentAmount': 120, 'AmountGEL': 2000.0, 'MonthlyPaymentAmountGEL': 150.0, 'MonthlyAmountPaymentVariableGEL': 100.0, 'LongTermMonthlyPaymentAmountGEL': 120.0, 'AmountInLoanCurrency': 706.2, 'MonthlyPaymentAmountInLoanCurrency': 52.97}
+Found value 100 for MonthlyAmountPayment_Variable
+Converted MonthlyAmountPayment_Variable to numeric: 100
+Rate to GEL: 1.0
+Set MonthlyAmountPayment_VariableGEL = 100.0
+Rate to loan currency: 0.3531
+Set MonthlyAmountPayment_VariableInLoanCurrency = 35.31
+Processing field LongTermMonthlyPaymentAmount in parent: {'Currency': 'GEL', 'Amount': 2000, 'MonthlyPaymentAmount': 150, 'MonthlyAmountPayment_Variable': 100, 'LongTermMonthlyPaymentAmount': 120, 'AmountGEL': 2000.0, 'MonthlyPaymentAmountGEL': 150.0, 'MonthlyAmountPaymentVariableGEL': 100.0, 'LongTermMonthlyPaymentAmountGEL': 120.0, 'AmountInLoanCurrency': 706.2, 'MonthlyPaymentAmountInLoanCurrency': 52.97, 'MonthlyAmountPayment_VariableGEL': 100.0, 'MonthlyAmountPayment_VariableInLoanCurrency': 35.31}
+Found value 120 for LongTermMonthlyPaymentAmount
+Converted LongTermMonthlyPaymentAmount to numeric: 120
+Rate to GEL: 1.0
+Set LongTermMonthlyPaymentAmountGEL = 120.0
+Rate to loan currency: 0.3531
+Set LongTermMonthlyPaymentAmountInLoanCurrency = 42.37
+Processing field RestrictionAmount in parent: {'RestrictionCurrency': 'GEL', 'RestrictionAmount': 500, 'RestrictionAmountGEL': 500.0}
+Found value 500 for RestrictionAmount
+Converted RestrictionAmount to numeric: 500
+Rate to GEL: 1.0
+Set RestrictionAmountGEL = 500.0
+Rate to loan currency: 0.3531
+Set RestrictionAmountInLoanCurrency = 176.55
+Processing field DepositAmount in parent: {'DepositCurrency': 'USD', 'DepositAmount': 3000, 'DepositAmountGEL': 8543.4, 'DepositAmountInLoanCurrency': 3000.0}
+Found value 3000 for DepositAmount
+Converted DepositAmount to numeric: 3000
+Rate to GEL: 2.8323
+Set DepositAmountGEL = 8496.9
+Rate to loan currency: 1.0
+Set DepositAmountInLoanCurrency = 3000.0
+Processing field Amount in parent: {'Currency': 'EUR', 'Amount': 700, 'AmountGEL': 2186.38}
+Found value 700 for Amount
+Converted Amount to numeric: 700
+Rate to GEL: 2.9742
+Set AmountGEL = 2081.94
+Rate to loan currency: 1.0501
+Set AmountInLoanCurrency = 735.07
+Processing field AccruedPenalty in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}}
+Found value 40 for AccruedPenalty
+Converted AccruedPenalty to numeric: 40
+Rate to GEL: 2.8323
+Set AccruedPenaltyGEL = 113.29
+Rate to loan currency: 1.0
+Set AccruedPenaltyInLoanCurrency = 40.0
+Processing field LimitAmount in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0}
+Found value 6000 for LimitAmount
+Converted LimitAmount to numeric: 6000
+Rate to GEL: 2.8323
+Set LimitAmountGEL = 16993.8
+Rate to loan currency: 1.0
+Set LimitAmountInLoanCurrency = 6000.0
+Processing field MonthlyPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0, 'LimitAmountGEL': 16993.8, 'LimitAmountInLoanCurrency': 6000.0}
+Found value 350 for MonthlyPaymentAmount
+Converted MonthlyPaymentAmount to numeric: 350
+Rate to GEL: 2.8323
+Set MonthlyPaymentAmountGEL = 991.31
+Rate to loan currency: 1.0
+Set MonthlyPaymentAmountInLoanCurrency = 350.0
+Processing field MaxMonthlyPaymentAmount in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0, 'LimitAmountGEL': 16993.8, 'LimitAmountInLoanCurrency': 6000.0, 'MonthlyPaymentAmountGEL': 991.31, 'MonthlyPaymentAmountInLoanCurrency': 350.0}
+Found value 450 for MaxMonthlyPaymentAmount
+Converted MaxMonthlyPaymentAmount to numeric: 450
+Rate to GEL: 2.8323
+Set MaxMonthlyPaymentAmountGEL = 1274.54
+Rate to loan currency: 1.0
+Set MaxMonthlyPaymentAmountInLoanCurrency = 450.0
+Processing field OutstandingAmount in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0, 'LimitAmountGEL': 16993.8, 'LimitAmountInLoanCurrency': 6000.0, 'MonthlyPaymentAmountGEL': 991.31, 'MonthlyPaymentAmountInLoanCurrency': 350.0, 'MaxMonthlyPaymentAmountGEL': 1274.54, 'MaxMonthlyPaymentAmountInLoanCurrency': 450.0}        
+Found value 5500 for OutstandingAmount
+Converted OutstandingAmount to numeric: 5500
+Rate to GEL: 2.8323
+Set OutstandingAmountGEL = 15577.65
+Rate to loan currency: 1.0
+Set OutstandingAmountInLoanCurrency = 5500.0
+Processing field PastDueAmount in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0, 'LimitAmountGEL': 16993.8, 'LimitAmountInLoanCurrency': 6000.0, 'MonthlyPaymentAmountGEL': 991.31, 'MonthlyPaymentAmountInLoanCurrency': 350.0, 'MaxMonthlyPaymentAmountGEL': 1274.54, 'MaxMonthlyPaymentAmountInLoanCurrency': 450.0, 'OutstandingAmountGEL': 15577.65, 'OutstandingAmountInLoanCurrency': 5500.0}
+Found value 120 for PastDueAmount
+Converted PastDueAmount to numeric: 120
+Rate to GEL: 2.8323
+Set PastDueAmountGEL = 339.88
+Rate to loan currency: 1.0
+Set PastDueAmountInLoanCurrency = 120.0
+Processing field PrincipalPastDueAmount in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0, 'LimitAmountGEL': 16993.8, 'LimitAmountInLoanCurrency': 6000.0, 'MonthlyPaymentAmountGEL': 991.31, 'MonthlyPaymentAmountInLoanCurrency': 350.0, 'MaxMonthlyPaymentAmountGEL': 1274.54, 'MaxMonthlyPaymentAmountInLoanCurrency': 450.0, 'OutstandingAmountGEL': 15577.65, 'OutstandingAmountInLoanCurrency': 5500.0, 'PastDueAmountGEL': 339.88, 'PastDueAmountInLoanCurrency': 120.0}
+Found value 90 for PrincipalPastDueAmount
+Converted PrincipalPastDueAmount to numeric: 90
+Rate to GEL: 2.8323
+Set PrincipalPastDueAmountGEL = 254.91
+Rate to loan currency: 1.0
+Set PrincipalPastDueAmountInLoanCurrency = 90.0
+Processing field RefinanceBalance in parent: {'LimitCurrency': 'USD', 'AccruedPenalty': 40, 'LimitAmount': 6000, 'MonthlyPaymentAmount': 350, 'MaxMonthlyPaymentAmount': 450, 'OutstandingAmount': 5500, 'PastDueAmount': 120, 'PrincipalPastDueAmount': 90, 'RefinanceBalance': 4000, 'Securities': {'Security': {'Currency': 'EUR', 'SecurityValue': 2000}}, 'AccruedPenaltyGEL': 113.29, 'AccruedPenaltyInLoanCurrency': 40.0, 'LimitAmountGEL': 16993.8, 'LimitAmountInLoanCurrency': 6000.0, 'MonthlyPaymentAmountGEL': 991.31, 'MonthlyPaymentAmountInLoanCurrency': 350.0, 'MaxMonthlyPaymentAmountGEL': 1274.54, 'MaxMonthlyPaymentAmountInLoanCurrency': 450.0, 'OutstandingAmountGEL': 15577.65, 'OutstandingAmountInLoanCurrency': 5500.0, 'PastDueAmountGEL': 339.88, 'PastDueAmountInLoanCurrency': 120.0, 'PrincipalPastDueAmountGEL': 254.91, 'PrincipalPastDueAmountInLoanCurrency': 90.0}  
+Found value 4000 for RefinanceBalance
+Converted RefinanceBalance to numeric: 4000
+Rate to GEL: 2.8323
+Set RefinanceBalanceGEL = 11329.2
+Rate to loan currency: 1.0
+Set RefinanceBalanceInLoanCurrency = 4000.0
+Processing field LimitAmount in parent: {'LimitCurrency': 'GEL', 'LimitAmount': 10000, 'MonthlyPaymentAmount': 500, 'OutstandingAmount': 8000, 'TotalRefinanceBalanceAmount': 7000, 'RefinanceBalance': 6500, 'LimitAmountGEL': 10000.0, 'MonthlyPaymentAmountGEL': 500.0, 'OutstandingAmountGEL': 8000.0, 'TotalRefinanceBalanceAmountGEL': 7000.0, 'RefinanceBalanceGEL': 6500.0}
+Found value 10000 for LimitAmount
+Converted LimitAmount to numeric: 10000
+Rate to GEL: 1.0
+Set LimitAmountGEL = 10000.0
+Rate to loan currency: 0.3531
+Set LimitAmountInLoanCurrency = 3531.0
+Processing field MonthlyPaymentAmount in parent: {'LimitCurrency': 'GEL', 'LimitAmount': 10000, 'MonthlyPaymentAmount': 500, 'OutstandingAmount': 8000, 'TotalRefinanceBalanceAmount': 7000, 'RefinanceBalance': 6500, 'LimitAmountGEL': 10000.0, 'MonthlyPaymentAmountGEL': 500.0, 'OutstandingAmountGEL': 8000.0, 'TotalRefinanceBalanceAmountGEL': 7000.0, 'RefinanceBalanceGEL': 6500.0, 'LimitAmountInLoanCurrency': 3531.0}
+Found value 500 for MonthlyPaymentAmount
+Converted MonthlyPaymentAmount to numeric: 500
+Rate to GEL: 1.0
+Set MonthlyPaymentAmountGEL = 500.0
+Rate to loan currency: 0.3531
+Set MonthlyPaymentAmountInLoanCurrency = 176.55
+Processing field OutstandingAmount in parent: {'LimitCurrency': 'GEL', 'LimitAmount': 10000, 'MonthlyPaymentAmount': 500, 'OutstandingAmount': 8000, 'TotalRefinanceBalanceAmount': 7000, 'RefinanceBalance': 6500, 'LimitAmountGEL': 10000.0, 'MonthlyPaymentAmountGEL': 500.0, 'OutstandingAmountGEL': 8000.0, 'TotalRefinanceBalanceAmountGEL': 7000.0, 'RefinanceBalanceGEL': 6500.0, 'LimitAmountInLoanCurrency': 3531.0, 'MonthlyPaymentAmountInLoanCurrency': 176.55}
+Found value 8000 for OutstandingAmount
+Converted OutstandingAmount to numeric: 8000
+Rate to GEL: 1.0
+Set OutstandingAmountGEL = 8000.0
+Rate to loan currency: 0.3531
+Set OutstandingAmountInLoanCurrency = 2824.8
+Processing field TotalRefinanceBalanceAmount in parent: {'LimitCurrency': 'GEL', 'LimitAmount': 10000, 'MonthlyPaymentAmount': 500, 'OutstandingAmount': 8000, 'TotalRefinanceBalanceAmount': 7000, 'RefinanceBalance': 6500, 'LimitAmountGEL': 10000.0, 'MonthlyPaymentAmountGEL': 500.0, 'OutstandingAmountGEL': 8000.0, 'TotalRefinanceBalanceAmountGEL': 7000.0, 'RefinanceBalanceGEL': 6500.0, 'LimitAmountInLoanCurrency': 3531.0, 'MonthlyPaymentAmountInLoanCurrency': 176.55, 'OutstandingAmountInLoanCurrency': 2824.8}
+Found value 7000 for TotalRefinanceBalanceAmount
+Converted TotalRefinanceBalanceAmount to numeric: 7000
+Rate to GEL: 1.0
+Set TotalRefinanceBalanceAmountGEL = 7000.0
+Rate to loan currency: 0.3531
+Set TotalRefinanceBalanceAmountInLoanCurrency = 2471.7
+Processing field RefinanceBalance in parent: {'LimitCurrency': 'GEL', 'LimitAmount': 10000, 'MonthlyPaymentAmount': 500, 'OutstandingAmount': 8000, 'TotalRefinanceBalanceAmount': 7000, 'RefinanceBalance': 6500, 'LimitAmountGEL': 10000.0, 'MonthlyPaymentAmountGEL': 500.0, 'OutstandingAmountGEL': 8000.0, 'TotalRefinanceBalanceAmountGEL': 7000.0, 'RefinanceBalanceGEL': 6500.0, 'LimitAmountInLoanCurrency': 3531.0, 'MonthlyPaymentAmountInLoanCurrency': 176.55, 'OutstandingAmountInLoanCurrency': 2824.8, 'TotalRefinanceBalanceAmountInLoanCurrency': 2471.7}
+Found value 6500 for RefinanceBalance
+Converted RefinanceBalance to numeric: 6500
+Rate to GEL: 1.0
+Set RefinanceBalanceGEL = 6500.0
+Rate to loan currency: 0.3531
+Set RefinanceBalanceInLoanCurrency = 2295.15
+Processing field IncomeAmount in parent: {'IncomeCurrency': 'USD', 'IncomeAmount': 1000, 'VerifideIncome': 1800, 'Expense': 800, 'NBGMaxNetIncome': 1500, 'IncomeAmountGEL': 2847.8, 'IncomeAmountInLoanCurrency': 1000.0, 'VerifideIncomeGEL': 5126.04, 'VerifideIncomeInLoanCurrency': 1800.0, 'ExpenseGEL': 2278.24, 'ExpenseInLoanCurrency': 800.0, 'NBGMaxNetIncomeGEL': 4271.7, 'NBGMaxNetIncomeInLoanCurrency': 1500.0}
+Found value 1000 for IncomeAmount
+Converted IncomeAmount to numeric: 1000
+Rate to GEL: 2.8323
+Set IncomeAmountGEL = 2832.3
+Rate to loan currency: 1.0
+Set IncomeAmountInLoanCurrency = 1000.0
+Processing field VerifideIncome in parent: {'IncomeCurrency': 'USD', 'IncomeAmount': 1000, 'VerifideIncome': 1800, 'Expense': 800, 'NBGMaxNetIncome': 1500, 'IncomeAmountGEL': 2832.3, 'IncomeAmountInLoanCurrency': 1000.0, 'VerifideIncomeGEL': 5126.04, 'VerifideIncomeInLoanCurrency': 1800.0, 'ExpenseGEL': 2278.24, 'ExpenseInLoanCurrency': 800.0, 'NBGMaxNetIncomeGEL': 4271.7, 'NBGMaxNetIncomeInLoanCurrency': 1500.0}
+Found value 1800 for VerifideIncome
+Converted VerifideIncome to numeric: 1800
+Rate to GEL: 2.8323
+Set VerifideIncomeGEL = 5098.14
+Rate to loan currency: 1.0
+Set VerifideIncomeInLoanCurrency = 1800.0
+Processing field Expense in parent: {'IncomeCurrency': 'USD', 'IncomeAmount': 1000, 'VerifideIncome': 1800, 'Expense': 800, 'NBGMaxNetIncome': 1500, 'IncomeAmountGEL': 2832.3, 'IncomeAmountInLoanCurrency': 1000.0, 'VerifideIncomeGEL': 5098.14, 'VerifideIncomeInLoanCurrency': 1800.0, 'ExpenseGEL': 2278.24, 'ExpenseInLoanCurrency': 800.0, 'NBGMaxNetIncomeGEL': 4271.7, 'NBGMaxNetIncomeInLoanCurrency': 1500.0}
+Found value 800 for Expense
+Converted Expense to numeric: 800
+Rate to GEL: 2.8323
+Set ExpenseGEL = 2265.84
+Rate to loan currency: 1.0
+Set ExpenseInLoanCurrency = 800.0
+Processing field NBGMaxNetIncome in parent: {'IncomeCurrency': 'USD', 'IncomeAmount': 1000, 'VerifideIncome': 1800, 'Expense': 800, 'NBGMaxNetIncome': 1500, 'IncomeAmountGEL': 2832.3, 'IncomeAmountInLoanCurrency': 1000.0, 'VerifideIncomeGEL': 5098.14, 'VerifideIncomeInLoanCurrency': 1800.0, 'ExpenseGEL': 2265.84, 'ExpenseInLoanCurrency': 800.0, 'NBGMaxNetIncomeGEL': 4271.7, 'NBGMaxNetIncomeInLoanCurrency': 1500.0}
+Found value 1500 for NBGMaxNetIncome
+Converted NBGMaxNetIncome to numeric: 1500
+Rate to GEL: 2.8323
+Set NBGMaxNetIncomeGEL = 4248.45
+Rate to loan currency: 1.0
+Set NBGMaxNetIncomeInLoanCurrency = 1500.0
+Processing field VerifideIncome in parent: {'IncomeCurrency': 'EUR', 'VerifideIncome': 1600, 'VerifideIncomeGEL': 4997.44}
+Found value 1600 for VerifideIncome
+Converted VerifideIncome to numeric: 1600
+Rate to GEL: 2.9742
+Set VerifideIncomeGEL = 4758.72
+Rate to loan currency: 1.0501
+Set VerifideIncomeInLoanCurrency = 1680.16
+✅ Conversion complete. Results saved to output.json.
