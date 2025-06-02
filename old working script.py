@@ -1,87 +1,99 @@
-# Extract Data
+import pandas as pd
 
-
-target_currency = record.fcl_listener.input.application.tbcbank.request.applicationdata.currency
-fx_rates = normalize(record.fcl_listener.input.application.tbcbank.request.generalinfo.exchangerates.exchangerate)
+# Get target currency from input
+target_currency = (
+    record.fcl_listener.input.application.tbcbank.request.applicationdata.currency
+)
+# Process exchange rates
+fx_rates = normalize(
+    record.fcl_listener.input.application.tbcbank.request.generalinfo.exchangerates.exchangerate
+)
 NBGExchangeRates = fx_rates[fx_rates["ExchangeRateType"] == "NBG"]
 applicants = record.fcl_listener.input.application.tbcbank.request.applicants.applicant
 
-# FX Rates Calculation Function
 def exchange_rates_calculation(node_currency, target_currency):
-    """Get exchange rate from node_currency to target_currency using NBG rates."""
     node_currency = str(node_currency).upper()
     target_currency = str(target_currency).upper()
     
     if node_currency == target_currency:
         return 1.0
-        
+
     filtered_rates = NBGExchangeRates[
-        (NBGExchangeRates["CurrencyCodeFrom"] == node_currency) &
-        (NBGExchangeRates["CurrencyCodeTo"] == target_currency)
+        (NBGExchangeRates["CurrencyCodeFrom"] == node_currency)
+        & (NBGExchangeRates["CurrencyCodeTo"] == target_currency)
     ]
     
     if not filtered_rates.empty:
         rate = filtered_rates["CurrencyRateSell"].iloc[0]
-        multiplicity = filtered_rates["ExchangeRateMultiplicity"].iloc[0] if "ExchangeRateMultiplicity" in filtered_rates.columns else 1.0
+        multiplicity = (
+            filtered_rates["ExchangeRateMultiplicity"].iloc[0]
+            if "ExchangeRateMultiplicity" in filtered_rates.columns
+            else 1.0
+        )
         return float(rate) / float(multiplicity)
     else:
         error_msg = f"No exchange rate found from {node_currency} to {target_currency}"
-        print(error_msg)
         record.fcl_listener.input.application.messagelist.statuscode = "3"
         record.fcl_listener.input.application.messagelist.description += f"#{error_msg}"
         record.fcl_listener.input.application.messagelist.statusdescription = "System Error"
         return None
 
-# Convert fields in a node to GEL and loan currency
-def convert_fields(node, fields, node_currency):
+def convert_fields(node, fields, node_currency, output_node):
+    """Convert field values and assign to output fields"""
     if node_currency is None:
-        print(f"Warning: Currency not found for conversion")
         return
-        
-    # Calculate exchange rates
+    
     try:
         rate_to_gel = exchange_rates_calculation(node_currency, "GEL")
         rate_in_loan = exchange_rates_calculation(node_currency, target_currency)
-    except Exception as e:
-        print(f"Error calculating exchange rates: {e}")
+    except Exception:
         return
-        
+
     if rate_to_gel is None or rate_in_loan is None:
         return
-        
-    # Convert each field
+
     for field in fields:
         field_value = getattr(node, field.lower(), None)
         if field_value is not None:
             try:
                 num_value = float(field_value)
-                # Add GEL conversion
-                setattr(node, f"{field.lower()}gel", num_value * rate_to_gel)
-                # Add loan currency conversion
-                setattr(node, f"{field.lower()}inloancurrency", num_value * rate_in_loan)
+                # Assign to output fields
+                setattr(output_node, f"{field}GEL", num_value * rate_to_gel)
+                setattr(output_node, f"{field}InLoanCurrency", num_value * rate_in_loan)
             except (ValueError, TypeError):
-                print(f"Warning: Cannot convert {field}='{field_value}' to number")
+                pass
 
-# Process APM applications
+# Process all APM applications for each applicant
 def process_apm_applications():
-    print("=== Processing APM Applications ===")
     for i in range(len(applicants)):
         applicant = applicants[i]
+        output_applicant = record.fcl_listener.output.application.tbcbank.request.applicants.applicant[i]
+        
         try:
             apm_applications = applicant.internaldatainfo.apmapplicationhistory.apmapplication
-            if apm_applications.GetNodeKey() == -1:
-                print(f"APM Applications node is missing for Applicant {i}")
+            output_apm_applications = output_applicant.internaldatainfo.apmapplicationhistory.apmapplication
+            
+            if apm_applications == -1:
                 continue
-                
+
             for j in range(len(apm_applications)):
                 apm_app = apm_applications[j]
+                output_apm_app = output_apm_applications[j]
+                
                 node_currency = apm_app.currency
-                fields = ["Amount", "MonthlyPaymentAmount", "MonthlyAmountPayment_Variable", "LongTermMonthlyPaymentAmount"]
-                convert_fields(apm_app, fields, node_currency)
-        except AttributeError as e:
-            print(f"Error processing APM Applications for Applicant {i}: {e}")
+                fields = [
+                    "Amount",
+                    "MonthlyPaymentAmount",
+                    "MonthlyAmountPayment_Variable",
+                    "LongTermMonthlyPaymentAmount"
+                ]
+                
+                # Convert and assign values to output
+                convert_fields(apm_app, fields, node_currency, output_apm_app)
+                
+        except AttributeError:
+            continue
 
-# Process securities within loans
 def process_securities(loan_path):
     print(f"=== Processing Securities in {loan_path} ===")
     for i in range(len(applicants)):
@@ -302,7 +314,7 @@ def process_job_info():
 def process_application_securities():
     print("=== Processing Application Securities ===")
     try:
-        securities = record.fcl_listener.input.application.tbcbank.request.applicationdata.securities.security
+        securities = record.system.application.tbcbank.request.applicationdata.securities.security
         if securities.GetNodeKey() == -1:
             print("Application securities node is missing")
             return
@@ -326,7 +338,7 @@ def process_application_securities():
 def process_collateral_liabilities():
     print("=== Processing Collateral Liabilities ===")
     try:
-        liabilities = record.fcl_listener.input.application.tbcbank.request.applicationdata.collateralliabilities.collateralliability
+        liabilities = record.system.application.tbcbank.request.applicationdata.collateralliabilities.collateralliability
         if liabilities.GetNodeKey() == -1:
             print("Collateral liabilities node is missing")
             return
@@ -342,15 +354,11 @@ def process_collateral_liabilities():
     except AttributeError as e:
         print(f"Error processing collateral liabilities: {e}")
 
-# Main execution
-print("Starting currency conversion process...")
-
-# Process all types of entities that need currency conversion
 process_apm_applications()
-process_securities("internal")  # InternalDataInfo securities
-process_securities("bureau")    # CreditBureauInfo securities
-process_loans("internal")       # InternalDataInfo loans
-process_loans("bureau")         # CreditBureauInfo loans
+process_securities("internal")  
+process_securities("bureau")   
+process_loans("internal")       
+process_loans("bureau")         
 process_account_pledges()
 process_deposits()
 process_transfer_amounts()
@@ -358,5 +366,3 @@ process_other_liabilities()
 process_job_info()
 process_application_securities()
 process_collateral_liabilities()
-
-print("✅ Currency conversion complete.")
