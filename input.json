@@ -1,0 +1,2325 @@
+{
+    "Application": {
+      "ApplicationDate": "abc",
+      "ApplicationType": "abc",
+      "CallID": 1,
+      "CallType": "abc",
+      "DeliveryOptionCode": "abc",
+      "OverrideFlag": "abc",
+      "ProcessingRequestType": "abc",
+      "RMOfferFlag": "abc",
+      "UpdatePricingFlag": "abc",
+      "RecalculateCall": "abc",
+      "SystemGUID": "abc",
+      "SystemVersion": "abc",
+      "WorkbenchVersion": "abc",
+      "CreditRequest": {
+        "ProductCode": "abc",
+        "ProductCategory": "abc"
+      },
+      "TBCBank": {
+        "Request": {
+          "ProductPolicyCatalogue": {
+            "ProductPolicy": [
+              {
+                "Type": "abc",
+                "CBFixedFeeAmount": 123,
+                "CBMinFeeAmount": 123,
+                "CBRateFee": 123,
+                "MaxAPR": 123,
+                "MaxGracePeriodForInterest": 123,
+                "MaxGracePeriodForPrincipal": 123,
+                "MaxLoanAmount": 123,
+                "MaxLoanTerm": 123,
+                "MinAPR": 123,
+                "InterestRate_Sec": 123,
+                "MinGracePeriodForInterest": 123,
+                "MinGracePeriodForPrincipal": 123,
+                "MinLoanAmount": 10,
+                "MinLoanTerm": 123,
+                "MonthlyFee": 123,
+                "NewAccountCashWithdrawalFeeRateBranch": 123,
+                "MinDaysToFirstPayment": 123,
+                "MaxDaysToFirstPayment": 123,
+                "DisbursementFeeMinAmount": 123,
+                "DisbursementFeeFixedAmount": 123,
+                "DisbursementFeeRate": 123,
+                "PrePaymentFees": {
+                  "PrePaymentFee": [
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    },
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    }
+                  ]
+                },
+                "InsuranceByLoanAmount": {
+                  "InsuranceAmount": [
+                    {
+                      "LoanAmount": 123,
+                      "Value": 123
+                    },
+                    {
+                      "LoanAmount": 123,
+                      "Value": 123
+                    }
+                  ]
+                }
+              },
+              {
+                "Type": "abc",
+                "CBFixedFeeAmount": 123,
+                "CBMinFeeAmount": 123,
+                "CBRateFee": 123,
+                "MaxAPR": 123,
+                "MaxGracePeriodForInterest": 123,
+                "MaxGracePeriodForPrincipal": 123,
+                "MaxLoanAmount": 123,
+                "MaxLoanTerm": 123,
+                "MinAPR": 123,
+                "InterestRate_Sec": 123,
+                "MinGracePeriodForInterest": 123,
+                "MinGracePeriodForPrincipal": 123,
+                "MinLoanAmount": 123,
+                "MinLoanTerm": 123,
+                "MonthlyFee": 123,
+                "NewAccountCashWithdrawalFeeRateBranch": 123,
+                "MinDaysToFirstPayment": 123,
+                "MaxDaysToFirstPayment": 123,
+                "DisbursementFeeMinAmount": 123,
+                "DisbursementFeeFixedAmount": 123,
+                "DisbursementFeeRate": 123,
+                "PrePaymentFees": {
+                  "PrePaymentFee": [
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    },
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    }
+                  ]
+                },
+                "InsuranceByLoanAmount": {
+                  "InsuranceAmount": [
+                    {
+                      "LoanAmount": 123,
+                      "Value": 123
+                    },
+                    {
+                      "LoanAmount": 123,
+                      "Value": 123
+                    }
+                  ]
+                }
+              }
+            ],
+            "SourceRates": [
+              {
+                "SourceRate": [
+                  {
+                    "Bin": 123,
+                    "Rate": 123
+                  },
+                  {
+                    "Bin": 123,
+                    "Rate": 123
+                  }
+                ]
+              },
+              {
+                "SourceRate": [
+                  {
+                    "Bin": 123,
+                    "Rate": 123
+                  },
+                  {
+                    "Bin": 123,
+                    "Rate": 123
+                  }
+                ]
+              }
+            ]
+          },
+          "ApplicationData": {
+            "ApplicantContributionAmount": 123,
+            "DisbursementFeeDistributionFlag": "abc",
+            "IsPalWithoutCBFlag": "abc",
+            "ImportantModificationFlag": "abc",
+            "Currency": "GEL",
+            "InsuranceFlag": "abc",
+            "RestructuringFlag": "abc",
+            "FirstPaymentDate": "abc",
+            "SpecialConditionSubType": "abc",
+            "SellCampaign": "abc",
+            "GracePeriodType": "abc",
+            "GracePeriodScheduleType": "abc",
+            "ScheduleGenerationType": "abc",
+            "ExceptionPayrollFlag": "abc",
+            "NonStandardFCLFlag": "abc",
+            "RMSegment": 123,
+            "DeletedIndebtednessStatementsFeeAmount": 123,
+            "TotalIndebtednessStatementsFeeAmount": 123,
+            "CompanyStatus": 123,
+            "ApplicationChannel": "abc",
+            "CalculationDate": "abc",
+            "GracePeriod": 123,
+            "ApplicationMinData": {
+              "RequestedRepayment": 123,
+              "RequestedTerm": 123,
+              "RequestedAmount": 123
+            },
+            "SystemInformation": {
+              "BranchRegion": "abc",
+              "BranchID": "abc",
+              "ApplicationId": "abc",
+              "ActionNumber": 123,
+              "DataBaseApplicationID": 123
+            },
+            "BankCreditProduct": {
+              "OfferType": "abc",
+              "CheckedOfferFlag": "abc",
+              "CreditProduct": {
+                "CreditLimitAmount": 123,
+                "Currency": "abc",
+                "FirstTrancheAmountDisbursed": 123,
+                "InterestRate": 123,
+                "MonthlyPaymentAmount": 123,
+                "ProductName": "abc",
+                "RequestedAmount": 123,
+                "SecondTrancheAmountDisbursed": 123,
+                "TermMonths": 123,
+                "ThirdTrancheAmountDisbursed": 123
+              },
+              "RMOffer": {
+                "InterestRate": 123,
+                "CreditLimitAmount": 123,
+                "TermMonths": 123,
+                "InsuranceAmount": 123,
+                "FirstTrancheAmountDisbursed": 123,
+                "SecondTrancheAmountDisbursed": 123,
+                "ThirdTrancheAmountDisbursed": 123
+              },
+              "PricingUpdate": {
+                "InterestRate": 123,
+                "InsuranceAmount": 123,
+                "CashWithdrawalFeeRate": 123,
+                "DisbursementFeeRate": 123,
+                "PrepaymentFees": {
+                  "PrepaymentFee": [
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    },
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    }
+                  ]
+                }
+              }
+            }
+          },
+          "Applicants": {
+            "Applicant": [
+              {
+                "IsPropertyOwnerFlag": "abc",
+                "BirthDate": "abc",
+                "BigDataScoringErrorFlag": "abc",
+                "DocumentIssueDate": "abc",
+                "ApplicantID": "abc",
+                "PID": "abc",
+                "ApplicantType": "abc",
+                "Citizenship": "abc",
+                "DoubleCitizenship": "abc",
+                "NeedIncomeCheck": "abc",
+                "IncomeCheckConfigurationFlag": "abc",
+                "IncomeShare": 123,
+                "IndividualInsurancePoliceFlag": "abc",
+                "UseBorrower": "abc",
+                "FirstName": "abc",
+                "FullName": "abc",
+                "Gender": "abc",
+                "LastName": "abc",
+                "RestructuringReason": "abc",
+                "IsIncomeConfirmed": "abc",
+                "IsResident": "abc",
+                "NonResidentWithoutPIN": "abc",
+                "IsCitizenshipSYorIR": "abc",
+                "SpecialConditionFlag": "abc",
+                "PassportNumber": "abc",
+                "IsEmigrant": "abc",
+                "InternalDataInfo": {
+                  "Accounts": {
+                    "Account": [
+                      {
+                        "AccountSubType": "abc",
+                        "AccountType": "abc",
+                        "CashWithdrawalFeeRate": 123,
+                        "Currency": "abc",
+                        "OverLimit": 123,
+                        "SelectedToWithdraw": "abc",
+                        "AccountPledge": {
+                          "RestrictionType": "abc",
+                          "RestrictionAmount": 123,
+                          "RestrictionCurrency": "abc"
+                        }
+                      },
+                      {
+                        "AccountSubType": "abc",
+                        "AccountType": "abc",
+                        "CashWithdrawalFeeRate": 123,
+                        "Currency": "abc",
+                        "OverLimit": 123,
+                        "SelectedToWithdraw": "abc",
+                        "AccountPledge": {
+                          "RestrictionType": "abc",
+                          "RestrictionAmount": 123,
+                          "RestrictionCurrency": "abc"
+                        }
+                      }
+                    ]
+                  },
+                  "APMApplicationHistory": {
+                    "APMApplication": [
+                      {
+                        "ApplicationDecisionStatus": "abc",
+                        "ApplicationStatus": "abc",
+                        "IsInProgress": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "ProductName": "abc",
+                        "Amount": 123,
+                        "Currency": "abc",
+                        "InterestRate": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MonthlyAmountPayment_Variable": 123,
+                        "LongTermMonthlyPaymentAmount": 123,
+                        "IncomeShare": 123,
+                        "IsInControlGroupFlag": "abc",
+                        "IsProlongation": "abc",
+                        "IsDeclinedByRiskManagerFlag": "abc",
+                        "ApplicationDate": "abc",
+                        "ApplicationID": "abc",
+                        "ProductCategory": "abc"
+                      },
+                      {
+                        "ApplicationDecisionStatus": "abc",
+                        "ApplicationStatus": "abc",
+                        "IsInProgress": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "ProductName": "abc",
+                        "Amount": 123,
+                        "Currency": "abc",
+                        "InterestRate": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MonthlyAmountPayment_Variable": 123,
+                        "LongTermMonthlyPaymentAmount": 123,
+                        "IncomeShare": 123,
+                        "IsInControlGroupFlag": "abc",
+                        "IsProlongation": "abc",
+                        "IsDeclinedByRiskManagerFlag": "abc",
+                        "ApplicationDate": "abc",
+                        "ApplicationID": "abc",
+                        "ProductCategory": "abc"
+                      }
+                    ]
+                  },
+                  "BasicCreditHistory": {
+                    "Loan": [
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "LifeInsuranceRate": 123,
+                        "LifeInsuranceAmount": 123,
+                        "AccruedInsurance": 123,
+                        "AccruedInterest": 123,
+                        "AccruedPenalty": 123,
+                        "PaidPenalty": 123,
+                        "AgreementId": "abc",
+                        "BorrowingShare": 123,
+                        "LifeInsuranceShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "InsurancePastDueAmount": 123,
+                        "InsurancePaymentAmount": 123,
+                        "InterestPastDueAmount": 123,
+                        "InterestPaymentAmount": 123,
+                        "InterestRate": 123,
+                        "InterestRate_Variable": 123,
+                        "InterestRate_Min": 123,
+                        "IsProlongation": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "IsRefinanced": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "IsInControlGroupFlag": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "IsVariable": "abc",
+                        "IsSold": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "USD",
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "PenaltyAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "Reserve": 123,
+                        "OutstandingAmount": 123,
+                        "OutstandingAmount_Variable": 123,
+                        "PALRefinanceFlag": "abc",
+                        "PastDueAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "PrincipalPaymentAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "RepaymentDate": "abc",
+                        "SAAccruedPenalty": 123,
+                        "SAPrepaymentFeeRate": 123,
+                        "StartDate": "abc",
+                        "StartDate_Variable": "abc",
+                        "TotalAmountToCover": 123,
+                        "WriteOffDate": "abc",
+                        "UseProlongationFlag": "abc",
+                        "MaxTermLMS": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "LifeInsuranceRate": 123,
+                        "LifeInsuranceAmount": 123,
+                        "AccruedInsurance": 123,
+                        "AccruedInterest": 123,
+                        "AccruedPenalty": 123,
+                        "PaidPenalty": 123,
+                        "AgreementId": "abc",
+                        "BorrowingShare": 123,
+                        "LifeInsuranceShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "InsurancePastDueAmount": 123,
+                        "InsurancePaymentAmount": 123,
+                        "InterestPastDueAmount": 123,
+                        "InterestPaymentAmount": 123,
+                        "InterestRate": 123,
+                        "InterestRate_Variable": 123,
+                        "InterestRate_Min": 123,
+                        "IsProlongation": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "IsRefinanced": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "IsInControlGroupFlag": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "IsVariable": "abc",
+                        "IsSold": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "USD",
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "PenaltyAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "Reserve": 123,
+                        "OutstandingAmount": 123,
+                        "OutstandingAmount_Variable": 123,
+                        "PALRefinanceFlag": "abc",
+                        "PastDueAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "PrincipalPaymentAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "RepaymentDate": "abc",
+                        "SAAccruedPenalty": 123,
+                        "SAPrepaymentFeeRate": 123,
+                        "StartDate": "abc",
+                        "StartDate_Variable": "abc",
+                        "TotalAmountToCover": 123,
+                        "WriteOffDate": "abc",
+                        "UseProlongationFlag": "abc",
+                        "MaxTermLMS": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "BehaviouralScoring": {
+                    "RatingClass": "abc",
+                    "ProbabilityOfDefault": 123,
+                    "Bin": 123,
+                    "FCLProbabilityDefault": 123,
+                    "BigDataScoring": {
+                      "Scoring": [
+                        {
+                          "SegmentGroup": "abc",
+                          "Limit": 123,
+                          "Bin": 123,
+                          "Decision": "abc"
+                        },
+                        {
+                          "SegmentGroup": "abc",
+                          "Limit": 123,
+                          "Bin": 123,
+                          "Decision": "abc"
+                        }
+                      ]
+                    }
+                  },
+                  "ClientStatusInfo": {
+                    "VIPFlag": "abc",
+                    "ConceptFlag": "abc",
+                    "StatusFlag": "abc",
+                    "SubSegment": "abc",
+                    "TBCEmployee": "abc",
+                    "ProblemClientFlag": "abc",
+                    "DepositFlag": "abc",
+                    "ExceptionFlag": "abc",
+                    "LimitUtilizationRate": 123,
+                    "FirstAccountOpenDate": "abc",
+                    "InsiderFlag": "abc",
+                    "ApplicationSalaryAtTBCFlag": "abc",
+                    "SalaryAtTBCFlag": "abc",
+                    "OtherSelfEmployedAtTBCFlag": "abc",
+                    "IndividualEntrepreneur": "abc",
+                    "ClientCreditHistories": {
+                      "ClientCreditHistory": [
+                        {
+                          "Period": 123,
+                          "ProductGroup": "abc",
+                          "NumberOfMonth": 123
+                        },
+                        {
+                          "Period": 123,
+                          "ProductGroup": "abc",
+                          "NumberOfMonth": 123
+                        }
+                      ]
+                    }
+                  },
+                  "FinancialDataInfo": {
+                    "SumOfGamblingAmount_6": 123
+                  },
+                  "SalaryTransactionHistory": {
+                    "IncomeAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  },
+                  "BonusTransactionHistory": {
+                    "IncomeAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  },
+                  "OtherTransactionHistory": {
+                    "IncomeAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  },
+                  "RentTransactionHistory": {
+                    "RentAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123
+                      }
+                    ]
+                  },
+                  "Deposits": {
+                    "DepositInfo": [
+                      {
+                        "DepositType": "abc",
+                        "DepositAmount": 123,
+                        "DepositCurrency": "abc",
+                        "DepositOpenDate": "abc",
+                        "DepositCloseDate": "abc"
+                      },
+                      {
+                        "DepositType": "abc",
+                        "DepositAmount": 123,
+                        "DepositCurrency": "abc",
+                        "DepositOpenDate": "abc",
+                        "DepositCloseDate": "abc"
+                      }
+                    ]
+                  },
+                  "SelfEmployedTransactionHistory": {
+                    "PredictedValueInGel": 123,
+                    "IncomeModelLimit": 123,
+                    "IsPredictedClass": "abc",
+                    "SelfEmployedIncomeTransactionHistory": {
+                      "Limit": 123,
+                      "TotalLimitP5": 123,
+                      "TotalLimitP3": 123,
+                      "IncomeAmount": [
+                        {
+                          "Period": 123,
+                          "Amount": 123
+                        },
+                        {
+                          "Period": 123,
+                          "Amount": 123
+                        }
+                      ]
+                    },
+                    "SelfEmployedOtherTransactionHistory": {
+                      "Expense": 123,
+                      "OtherIncomeAmount": [
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Company": "abc"
+                        },
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Company": "abc"
+                        }
+                      ]
+                    }
+                  },
+                  "TransferTransactionHistory": {
+                    "TransferAmounts": {
+                      "TransferAmount": [
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Country": "abc",
+                          "Currency": "abc",
+                          "Source": "abc"
+                        },
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Country": "abc",
+                          "Currency": "abc",
+                          "Source": "abc"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "CreditBureauInfo": {
+                  "BureauLaterThan": "abc",
+                  "CreditRating": {
+                    "ScoringReasons": {
+                      "ReasonCount": 123
+                    },
+                    "BureauGrade": "abc",
+                    "CBProbabilityOfDefault": 123
+                  },
+                  "CreditBureauSubscribers": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauSubscribersMFI": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauInquiry": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauInquiryBanks": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauInquiryMFI": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauSubscribersBanks": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "NegativeStatuses": [
+                    {
+                      "CurrentStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "PastStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusDebtor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusGuarantor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ]
+                    },
+                    {
+                      "CurrentStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "PastStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusDebtor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusGuarantor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ]
+                    }
+                  ],
+                  "CreditBureauIncome": {
+                    "IncomeAmount": 123,
+                    "IncomeCurrency": "abc",
+                    "IncomeType": "abc"
+                  },
+                  "BasicCreditHistory": {
+                    "Loan": [
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "BorrowingShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "PastDueAmount": 123,
+                        "InterestRate": 123,
+                        "IsProlongation": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "Phase": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "PeriodicityOfPayments": "abc",
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "OutstandingAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "SecurityStatus": "abc",
+                        "StartDate": "abc",
+                        "InstitutionType": "abc",
+                        "Status": "abc",
+                        "ContractStatus": "abc",
+                        "CurrentDaysInDeliquency": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "AccruedPenalty": 123,
+                        "LimitCurrency": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "BorrowingShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "PastDueAmount": 123,
+                        "InterestRate": 123,
+                        "IsProlongation": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "Phase": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "PeriodicityOfPayments": "abc",
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "OutstandingAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "SecurityStatus": "abc",
+                        "StartDate": "abc",
+                        "InstitutionType": "abc",
+                        "Status": "abc",
+                        "ContractStatus": "abc",
+                        "CurrentDaysInDeliquency": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "AccruedPenalty": 123,
+                        "LimitCurrency": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "RequestResult": {
+                    "ReturnCode": "abc",
+                    "CBOfflineFlag": "abc",
+                    "OtherBankPayrollFlag": "abc",
+                    "IncomeCheckComparisonResult": "abc"
+                  },
+                  "CreditBureauHistory": {
+                    "DPD30Last18Months": "abc"
+                  },
+                  "OtherLiabilities": {
+                    "OtherLiability": [
+                      {
+                        "EntityID": "abc",
+                        "InstitutionName": "abc",
+                        "StartDate": "abc",
+                        "CloseDateScheduled": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "abc",
+                        "MonthlyPaymentAmount": 123,
+                        "CollateralType": "abc",
+                        "OutstandingAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceFlag": "abc",
+                        "RefinanceBalance": 123,
+                        "IsOwnFundsRefinancing": "abc",
+                        "ProductCategory": "abc"
+                      },
+                      {
+                        "EntityID": "abc",
+                        "InstitutionName": "abc",
+                        "StartDate": "abc",
+                        "CloseDateScheduled": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "abc",
+                        "MonthlyPaymentAmount": 123,
+                        "CollateralType": "abc",
+                        "OutstandingAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceFlag": "abc",
+                        "RefinanceBalance": 123,
+                        "IsOwnFundsRefinancing": "abc",
+                        "ProductCategory": "abc"
+                      }
+                    ]
+                  }
+                },
+                "Jobs": {
+                  "JobInfo": [
+                    {
+                      "CurrentWorkExperience": 123,
+                      "TotalWorkExperience": 123,
+                      "EmployerCompany": "abc",
+                      "DifferentProfession": "abc",
+                      "IsIncomeInGeorgia": "abc",
+                      "ApplicantIncome": {
+                        "IncomeAmount": 123,
+                        "IncomeAmountGEL": 123,
+                        "IncomeCurrency": "abc",
+                        "IncomeID": 123,
+                        "IsCurrencyRisk": "abc",
+                        "IsBusinessOwnerFlag": "abc",
+                        "IncomeSource": "abc",
+                        "IncomeType": "abc",
+                        "EntityID": "abc",
+                        "SenderAge": 123,
+                        "IncomeBank": "abc",
+                        "IsIncomeApprovedByPhoto": "true",
+                        "Expense": 123,
+                        "NBGMaxNetIncome": 123,
+                        "NBGExpenseRate": 123,
+                        "OtherBankPeriod": 123,
+                        "TbcSalaryPeriod": 123,
+                        "CompanyName": "abc",
+                        "Position": "abc",
+                        "PosititionCategory": "abc",
+                        "VerifideIncome": 123
+                      }
+                    },
+                    {
+                      "CurrentWorkExperience": 123,
+                      "TotalWorkExperience": 123,
+                      "EmployerCompany": "abc",
+                      "DifferentProfession": "abc",
+                      "IsIncomeInGeorgia": "abc",
+                      "ApplicantIncome": {
+                        "IncomeAmount": 123,
+                        "IncomeAmountGEL": 123,
+                        "IncomeCurrency": "abc",
+                        "IncomeID": 123,
+                        "IsCurrencyRisk": "abc",
+                        "IsBusinessOwnerFlag": "abc",
+                        "IncomeSource": "abc",
+                        "IncomeType": "abc",
+                        "EntityID": "abc",
+                        "SenderAge": 123,
+                        "IncomeBank": "abc",
+                        "IsIncomeApprovedByPhoto": "abc",
+                        "Expense": 123,
+                        "NBGMaxNetIncome": 123,
+                        "NBGExpenseRate": 123,
+                        "OtherBankPeriod": 123,
+                        "TbcSalaryPeriod": 123,
+                        "CompanyName": "abc",
+                        "Position": "abc",
+                        "PosititionCategory": "abc",
+                        "VerifideIncome": 123
+                      }
+                    }
+                  ]
+                },
+                "VerifiedIncome": {
+                  "Currency": "abc",
+                  "IncomeWay": "abc",
+                  "IncomeAmount": 123,
+                  "IncomeSelected": "abc",
+                  "TbcSalaryPeriod": 123
+                },
+                "RevenueServiceInfo": {
+                  "ClientConfirmation": "abc",
+                  "IsDeclarationDateRepeated": "abc",
+                  "PayerDetails": {
+                    "PayerDetail": [
+                      {
+                        "IncomeType": "abc",
+                        "Income": 123,
+                        "SmallBussinesRevenue": 123,
+                        "TaxableTotalIncome": 123,
+                        "Period": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "IncomeType": "abc",
+                        "Income": 123,
+                        "SmallBussinesRevenue": 123,
+                        "TaxableTotalIncome": 123,
+                        "Period": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "IsPropertyOwnerFlag": "abc",
+                "BirthDate": "abc",
+                "BigDataScoringErrorFlag": "abc",
+                "DocumentIssueDate": "abc",
+                "ApplicantID": "abc",
+                "PID": "abc",
+                "ApplicantType": "abc",
+                "Citizenship": "abc",
+                "DoubleCitizenship": "abc",
+                "NeedIncomeCheck": "abc",
+                "IncomeCheckConfigurationFlag": "abc",
+                "IncomeShare": 123,
+                "IndividualInsurancePoliceFlag": "abc",
+                "UseBorrower": "abc",
+                "FirstName": "abc",
+                "FullName": "abc",
+                "Gender": "abc",
+                "LastName": "abc",
+                "RestructuringReason": "abc",
+                "IsIncomeConfirmed": "abc",
+                "IsResident": "abc",
+                "NonResidentWithoutPIN": "abc",
+                "IsCitizenshipSYorIR": "abc",
+                "SpecialConditionFlag": "abc",
+                "PassportNumber": "abc",
+                "IsEmigrant": "abc",
+                "InternalDataInfo": {
+                  "Accounts": {
+                    "Account": [
+                      {
+                        "AccountSubType": "abc",
+                        "AccountType": "abc",
+                        "CashWithdrawalFeeRate": 123,
+                        "Currency": "abc",
+                        "OverLimit": 123,
+                        "SelectedToWithdraw": "abc",
+                        "AccountPledge": {
+                          "RestrictionType": "abc",
+                          "RestrictionAmount": 123,
+                          "RestrictionCurrency": "abc"
+                        }
+                      },
+                      {
+                        "AccountSubType": "abc",
+                        "AccountType": "abc",
+                        "CashWithdrawalFeeRate": 123,
+                        "Currency": "abc",
+                        "OverLimit": 123,
+                        "SelectedToWithdraw": "abc",
+                        "AccountPledge": {
+                          "RestrictionType": "abc",
+                          "RestrictionAmount": 123,
+                          "RestrictionCurrency": "abc"
+                        }
+                      }
+                    ]
+                  },
+                  "APMApplicationHistory": {
+                    "APMApplication": [
+                      {
+                        "ApplicationDecisionStatus": "abc",
+                        "ApplicationStatus": "abc",
+                        "IsInProgress": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "ProductName": "abc",
+                        "Amount": 123,
+                        "Currency": "abc",
+                        "InterestRate": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MonthlyAmountPayment_Variable": 123,
+                        "LongTermMonthlyPaymentAmount": 123,
+                        "IncomeShare": 123,
+                        "IsInControlGroupFlag": "abc",
+                        "IsProlongation": "abc",
+                        "IsDeclinedByRiskManagerFlag": "abc",
+                        "ApplicationDate": "abc",
+                        "ApplicationID": "abc",
+                        "ProductCategory": "abc"
+                      },
+                      {
+                        "ApplicationDecisionStatus": "abc",
+                        "ApplicationStatus": "abc",
+                        "IsInProgress": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "ProductName": "abc",
+                        "Amount": 123,
+                        "Currency": "abc",
+                        "InterestRate": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MonthlyAmountPayment_Variable": 123,
+                        "LongTermMonthlyPaymentAmount": 123,
+                        "IncomeShare": 123,
+                        "IsInControlGroupFlag": "abc",
+                        "IsProlongation": "abc",
+                        "IsDeclinedByRiskManagerFlag": "abc",
+                        "ApplicationDate": "abc",
+                        "ApplicationID": "abc",
+                        "ProductCategory": "abc"
+                      }
+                    ]
+                  },
+                  "BasicCreditHistory": {
+                    "Loan": [
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "LifeInsuranceRate": 123,
+                        "LifeInsuranceAmount": 123,
+                        "AccruedInsurance": 123,
+                        "AccruedInterest": 123,
+                        "AccruedPenalty": 123,
+                        "PaidPenalty": 123,
+                        "AgreementId": "abc",
+                        "BorrowingShare": 123,
+                        "LifeInsuranceShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "InsurancePastDueAmount": 123,
+                        "InsurancePaymentAmount": 123,
+                        "InterestPastDueAmount": 123,
+                        "InterestPaymentAmount": 123,
+                        "InterestRate": 123,
+                        "InterestRate_Variable": 123,
+                        "InterestRate_Min": 123,
+                        "IsProlongation": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "IsRefinanced": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "IsInControlGroupFlag": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "IsVariable": "abc",
+                        "IsSold": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "abc",
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "PenaltyAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "Reserve": 123,
+                        "OutstandingAmount": 123,
+                        "OutstandingAmount_Variable": 123,
+                        "PALRefinanceFlag": "abc",
+                        "PastDueAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "PrincipalPaymentAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "RepaymentDate": "abc",
+                        "SAAccruedPenalty": 123,
+                        "SAPrepaymentFeeRate": 123,
+                        "StartDate": "abc",
+                        "StartDate_Variable": "abc",
+                        "TotalAmountToCover": 123,
+                        "WriteOffDate": "abc",
+                        "UseProlongationFlag": "abc",
+                        "MaxTermLMS": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "LifeInsuranceRate": 123,
+                        "LifeInsuranceAmount": 123,
+                        "AccruedInsurance": 123,
+                        "AccruedInterest": 123,
+                        "AccruedPenalty": 123,
+                        "PaidPenalty": 123,
+                        "AgreementId": "abc",
+                        "BorrowingShare": 123,
+                        "LifeInsuranceShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "InsurancePastDueAmount": 123,
+                        "InsurancePaymentAmount": 123,
+                        "InterestPastDueAmount": 123,
+                        "InterestPaymentAmount": 123,
+                        "InterestRate": 123,
+                        "InterestRate_Variable": 123,
+                        "InterestRate_Min": 123,
+                        "IsProlongation": "abc",
+                        "IsSelfEmployedIncomeFlag": "abc",
+                        "IsRefinanced": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "IsInControlGroupFlag": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "IsVariable": "abc",
+                        "IsSold": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "abc",
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "PenaltyAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "Reserve": 123,
+                        "OutstandingAmount": 123,
+                        "OutstandingAmount_Variable": 123,
+                        "PALRefinanceFlag": "abc",
+                        "PastDueAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "PrincipalPaymentAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "RepaymentDate": "abc",
+                        "SAAccruedPenalty": 123,
+                        "SAPrepaymentFeeRate": 123,
+                        "StartDate": "abc",
+                        "StartDate_Variable": "abc",
+                        "TotalAmountToCover": 123,
+                        "WriteOffDate": "abc",
+                        "UseProlongationFlag": "abc",
+                        "MaxTermLMS": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "BehaviouralScoring": {
+                    "RatingClass": "abc",
+                    "ProbabilityOfDefault": 123,
+                    "Bin": 123,
+                    "FCLProbabilityDefault": 123,
+                    "BigDataScoring": {
+                      "Scoring": [
+                        {
+                          "SegmentGroup": "abc",
+                          "Limit": 123,
+                          "Bin": 123,
+                          "Decision": "abc"
+                        },
+                        {
+                          "SegmentGroup": "abc",
+                          "Limit": 123,
+                          "Bin": 123,
+                          "Decision": "abc"
+                        }
+                      ]
+                    }
+                  },
+                  "ClientStatusInfo": {
+                    "VIPFlag": "abc",
+                    "ConceptFlag": "abc",
+                    "StatusFlag": "abc",
+                    "SubSegment": "abc",
+                    "TBCEmployee": "abc",
+                    "ProblemClientFlag": "abc",
+                    "DepositFlag": "abc",
+                    "ExceptionFlag": "abc",
+                    "LimitUtilizationRate": 123,
+                    "FirstAccountOpenDate": "abc",
+                    "InsiderFlag": "abc",
+                    "ApplicationSalaryAtTBCFlag": "abc",
+                    "SalaryAtTBCFlag": "abc",
+                    "OtherSelfEmployedAtTBCFlag": "abc",
+                    "IndividualEntrepreneur": "abc",
+                    "ClientCreditHistories": {
+                      "ClientCreditHistory": [
+                        {
+                          "Period": 123,
+                          "ProductGroup": "abc",
+                          "NumberOfMonth": 123
+                        },
+                        {
+                          "Period": 123,
+                          "ProductGroup": "abc",
+                          "NumberOfMonth": 123
+                        }
+                      ]
+                    }
+                  },
+                  "FinancialDataInfo": {
+                    "SumOfGamblingAmount_6": 123
+                  },
+                  "SalaryTransactionHistory": {
+                    "IncomeAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  },
+                  "BonusTransactionHistory": {
+                    "IncomeAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  },
+                  "OtherTransactionHistory": {
+                    "IncomeAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  },
+                  "RentTransactionHistory": {
+                    "RentAmount": [
+                      {
+                        "Period": 123,
+                        "Amount": 123
+                      },
+                      {
+                        "Period": 123,
+                        "Amount": 123
+                      }
+                    ]
+                  },
+                  "Deposits": {
+                    "DepositInfo": [
+                      {
+                        "DepositType": "abc",
+                        "DepositAmount": 123,
+                        "DepositCurrency": "abc",
+                        "DepositOpenDate": "abc",
+                        "DepositCloseDate": "abc"
+                      },
+                      {
+                        "DepositType": "abc",
+                        "DepositAmount": 123,
+                        "DepositCurrency": "abc",
+                        "DepositOpenDate": "abc",
+                        "DepositCloseDate": "abc"
+                      }
+                    ]
+                  },
+                  "SelfEmployedTransactionHistory": {
+                    "PredictedValueInGel": 123,
+                    "IncomeModelLimit": 912,
+                    "IsPredictedClass": "abc",
+                    "SelfEmployedIncomeTransactionHistory": {
+                      "Limit": 123,
+                      "TotalLimitP5": 123,
+                      "TotalLimitP3": 123,
+                      "IncomeAmount": [
+                        {
+                          "Period": 123,
+                          "Amount": 123
+                        },
+                        {
+                          "Period": 123,
+                          "Amount": 123
+                        }
+                      ]
+                    },
+                    "SelfEmployedOtherTransactionHistory": {
+                      "Expense": 123,
+                      "OtherIncomeAmount": [
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Company": "abc"
+                        },
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Company": "abc"
+                        }
+                      ]
+                    }
+                  },
+                  "TransferTransactionHistory": {
+                    "TransferAmounts": {
+                      "TransferAmount": [
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Country": "abc",
+                          "Currency": "abc",
+                          "Source": "abc"
+                        },
+                        {
+                          "Period": 123,
+                          "Amount": 123,
+                          "Country": "abc",
+                          "Currency": "abc",
+                          "Source": "abc"
+                        }
+                      ]
+                    }
+                  }
+                },
+                "CreditBureauInfo": {
+                  "BureauLaterThan": "abc",
+                  "CreditRating": {
+                    "ScoringReasons": {
+                      "ReasonCount": 123
+                    },
+                    "BureauGrade": "abc",
+                    "CBProbabilityOfDefault": 123
+                  },
+                  "CreditBureauSubscribers": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauSubscribersMFI": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauInquiry": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauInquiryBanks": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauInquiryMFI": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "CreditBureauSubscribersBanks": {
+                    "Last1Month": 123,
+                    "Last3Month": 123,
+                    "Last6Month": 123,
+                    "Last12Month": 123
+                  },
+                  "NegativeStatuses": [
+                    {
+                      "CurrentStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "PastStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusDebtor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusGuarantor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ]
+                    },
+                    {
+                      "CurrentStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "PastStatus": [
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        },
+                        {
+                          "Status": "abc",
+                          "DaysInDeliquency": 123,
+                          "OverdueDate": "abc",
+                          "RepaymentDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusDebtor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ],
+                      "AdditionalContractStatusGuarantor": [
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        },
+                        {
+                          "ContractStatus": "abc",
+                          "LastUpdateDate": "abc",
+                          "RegistrationDate": "abc"
+                        }
+                      ]
+                    }
+                  ],
+                  "CreditBureauIncome": {
+                    "IncomeAmount": 123,
+                    "IncomeCurrency": "abc",
+                    "IncomeType": "abc"
+                  },
+                  "BasicCreditHistory": {
+                    "Loan": [
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "BorrowingShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "PastDueAmount": 123,
+                        "InterestRate": 123,
+                        "IsProlongation": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "Phase": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "PeriodicityOfPayments": "abc",
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "OutstandingAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "SecurityStatus": "abc",
+                        "StartDate": "abc",
+                        "InstitutionType": "abc",
+                        "Status": "abc",
+                        "ContractStatus": "abc",
+                        "CurrentDaysInDeliquency": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "AccruedPenalty": 123,
+                        "LimitCurrency": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      },
+                      {
+                        "EntityID": "abc",
+                        "PropertyInsuranceTotalAmount": 123,
+                        "PropertyInsuranceRate": 123,
+                        "AutoInsuranceTotalAmount": 123,
+                        "AutoInsuranceRate": 123,
+                        "BorrowingShare": 123,
+                        "CEBorrowingShare": 123,
+                        "CloseDateReal": "abc",
+                        "CloseDateScheduled": "abc",
+                        "CustomerRole": "abc",
+                        "DPD": 123,
+                        "FeePaymentAmount": 123,
+                        "InstitutionName": "abc",
+                        "PastDueAmount": 123,
+                        "InterestRate": 123,
+                        "IsProlongation": "abc",
+                        "IsClosed": "abc",
+                        "IsRestructurized": "abc",
+                        "Is6PaymentsPayedFlag": "abc",
+                        "Phase": "abc",
+                        "IsOwnFundsRefinancing": "abc",
+                        "LastOverdueDate": "abc",
+                        "LastRestructurizationDate": "abc",
+                        "LimitAmount": 123,
+                        "MonthlyPaymentAmount": 123,
+                        "MaxMonthlyPaymentAmount": 123,
+                        "PeriodicityOfPayments": "abc",
+                        "BusinessMonthlyPaymentAmount": 123,
+                        "NumberOfPaymentsLeft": 123,
+                        "OutstandingAmount": 123,
+                        "PrincipalPastDueAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceBalance": 123,
+                        "RefinanceFlag": "abc",
+                        "SecurityStatus": "abc",
+                        "StartDate": "abc",
+                        "InstitutionType": "abc",
+                        "Status": "abc",
+                        "ContractStatus": "abc",
+                        "CurrentDaysInDeliquency": 123,
+                        "ProlongationFlag": "abc",
+                        "ClientRefinanceFlag": "abc",
+                        "AccruedPenalty": 123,
+                        "LimitCurrency": "abc",
+                        "Securities": {
+                          "Security": [
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            },
+                            {
+                              "Status": "abc",
+                              "SecurityType": "abc",
+                              "SecurityValue": 123,
+                              "Currency": "abc",
+                              "OwnerInsiderFlag": "abc"
+                            }
+                          ]
+                        },
+                        "PrePaymentFees": {
+                          "PrePaymentFee": [
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            },
+                            {
+                              "Count": 123,
+                              "Rate": 123,
+                              "Source": "abc"
+                            }
+                          ]
+                        }
+                      }
+                    ]
+                  },
+                  "RequestResult": {
+                    "ReturnCode": "abc",
+                    "CBOfflineFlag": "abc",
+                    "OtherBankPayrollFlag": "abc",
+                    "IncomeCheckComparisonResult": "abc"
+                  },
+                  "CreditBureauHistory": {
+                    "DPD30Last18Months": "abc"
+                  },
+                  "OtherLiabilities": {
+                    "OtherLiability": [
+                      {
+                        "EntityID": "abc",
+                        "InstitutionName": "abc",
+                        "StartDate": "abc",
+                        "CloseDateScheduled": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "abc",
+                        "MonthlyPaymentAmount": 123,
+                        "CollateralType": "abc",
+                        "OutstandingAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceFlag": "abc",
+                        "RefinanceBalance": 123,
+                        "IsOwnFundsRefinancing": "abc",
+                        "ProductCategory": "abc"
+                      },
+                      {
+                        "EntityID": "abc",
+                        "InstitutionName": "abc",
+                        "StartDate": "abc",
+                        "CloseDateScheduled": "abc",
+                        "LimitAmount": 123,
+                        "LimitCurrency": "abc",
+                        "MonthlyPaymentAmount": 123,
+                        "CollateralType": "abc",
+                        "OutstandingAmount": 123,
+                        "ProductName": "abc",
+                        "RefinanceFlag": "abc",
+                        "RefinanceBalance": 123,
+                        "IsOwnFundsRefinancing": "abc",
+                        "ProductCategory": "abc"
+                      }
+                    ]
+                  }
+                },
+                "Jobs": {
+                  "JobInfo": [
+                    {
+                      "CurrentWorkExperience": 123,
+                      "TotalWorkExperience": 123,
+                      "EmployerCompany": "abc",
+                      "DifferentProfession": "abc",
+                      "IsIncomeInGeorgia": "abc",
+                      "ApplicantIncome": {
+                        "IncomeAmount": 123,
+                        "IncomeAmountGEL": 123,
+                        "IncomeCurrency": "abc",
+                        "IncomeID": 123,
+                        "IsCurrencyRisk": "abc",
+                        "IsBusinessOwnerFlag": "abc",
+                        "IncomeSource": "abc",
+                        "IncomeType": "abc",
+                        "EntityID": "abc",
+                        "SenderAge": 123,
+                        "IncomeBank": "abc",
+                        "IsIncomeApprovedByPhoto": "abc",
+                        "Expense": 123,
+                        "NBGMaxNetIncome": 123,
+                        "NBGExpenseRate": 123,
+                        "OtherBankPeriod": 123,
+                        "TbcSalaryPeriod": 123,
+                        "CompanyName": "abc",
+                        "Position": "abc",
+                        "PosititionCategory": "abc",
+                        "VerifideIncome": 123
+                      }
+                    },
+                    {
+                      "CurrentWorkExperience": 123,
+                      "TotalWorkExperience": 123,
+                      "EmployerCompany": "abc",
+                      "DifferentProfession": "abc",
+                      "IsIncomeInGeorgia": "abc",
+                      "ApplicantIncome": {
+                        "IncomeAmount": 123,
+                        "IncomeAmountGEL": 123,
+                        "IncomeCurrency": "abc",
+                        "IncomeID": 123,
+                        "IsCurrencyRisk": "abc",
+                        "IsBusinessOwnerFlag": "abc",
+                        "IncomeSource": "abc",
+                        "IncomeType": "abc",
+                        "EntityID": "abc",
+                        "SenderAge": 123,
+                        "IncomeBank": "abc",
+                        "IsIncomeApprovedByPhoto": "abc",
+                        "Expense": 123,
+                        "NBGMaxNetIncome": 123,
+                        "NBGExpenseRate": 123,
+                        "OtherBankPeriod": 123,
+                        "TbcSalaryPeriod": 123,
+                        "CompanyName": "abc",
+                        "Position": "abc",
+                        "PosititionCategory": "abc",
+                        "VerifideIncome": 123
+                      }
+                    }
+                  ]
+                },
+                "VerifiedIncome": {
+                  "Currency": "abc",
+                  "IncomeWay": "abc",
+                  "IncomeAmount": 123,
+                  "IncomeSelected": "abc",
+                  "TbcSalaryPeriod": 123
+                },
+                "RevenueServiceInfo": {
+                  "ClientConfirmation": "abc",
+                  "IsDeclarationDateRepeated": "abc",
+                  "PayerDetails": {
+                    "PayerDetail": [
+                      {
+                        "IncomeType": "abc",
+                        "Income": 123,
+                        "SmallBussinesRevenue": 123,
+                        "TaxableTotalIncome": 123,
+                        "Period": 123,
+                        "TaxCode": "abc"
+                      },
+                      {
+                        "IncomeType": "abc",
+                        "Income": 123,
+                        "SmallBussinesRevenue": 123,
+                        "TaxableTotalIncome": 123,
+                        "Period": 123,
+                        "TaxCode": "abc"
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          },
+          "OffersDataCall": {
+            "OfferInfo": {
+              "DownsellFlag": "abc",
+              "CreditProduct": {
+                "FloatingInterestRate": "abc"
+              },
+              "OfferDetails": {
+                "PTIViolationFlag": "abc"
+              }
+            },
+            "PALOffers": [
+              {
+                "ClientMinPaymentAmount": 123,
+                "ClientMaxPaymentAmount": 123,
+                "ClientMaxPaymentRefinanceAmount": 123,
+                "NeedIncomeCheck": "abc",
+                "IsIncomeEstModelCalculated": "abc",
+                "Income": 123,
+                "S1Segment": "abc",
+                "IsSelfEmployedIncome": "abc",
+                "PALOffer": [
+                  {
+                    "Currency": "abc",
+                    "InterestRate": 123,
+                    "InterestRateByTerm": 123,
+                    "MaxLoanAmount": 123,
+                    "MonthlyPaymentAmount": 123,
+                    "MaxMonthlyPaymentAmountCB": 123,
+                    "OfferId": "abc",
+                    "OfferType": "abc",
+                    "TermMonths": 123
+                  },
+                  {
+                    "Currency": "abc",
+                    "InterestRate": 123,
+                    "InterestRateByTerm": 123,
+                    "MaxLoanAmount": 123,
+                    "MonthlyPaymentAmount": 123,
+                    "MaxMonthlyPaymentAmountCB": 123,
+                    "OfferId": "abc",
+                    "OfferType": "abc",
+                    "TermMonths": 123
+                  }
+                ]
+              },
+              {
+                "ClientMinPaymentAmount": 123,
+                "ClientMaxPaymentAmount": 123,
+                "ClientMaxPaymentRefinanceAmount": 123,
+                "NeedIncomeCheck": "abc",
+                "IsIncomeEstModelCalculated": "abc",
+                "Income": 123,
+                "S1Segment": "abc",
+                "IsSelfEmployedIncome": "abc",
+                "PALOffer": [
+                  {
+                    "Currency": "abc",
+                    "InterestRate": 123,
+                    "InterestRateByTerm": 123,
+                    "MaxLoanAmount": 123,
+                    "MonthlyPaymentAmount": 123,
+                    "MaxMonthlyPaymentAmountCB": 123,
+                    "OfferId": "abc",
+                    "OfferType": "abc",
+                    "TermMonths": 123
+                  },
+                  {
+                    "Currency": "abc",
+                    "InterestRate": 123,
+                    "InterestRateByTerm": 123,
+                    "MaxLoanAmount": 123,
+                    "MonthlyPaymentAmount": 123,
+                    "MaxMonthlyPaymentAmountCB": 123,
+                    "OfferId": "abc",
+                    "OfferType": "abc",
+                    "TermMonths": 123
+                  }
+                ]
+              }
+            ],
+            "PALProductCatalogue": [
+              {
+                "DisbursementFeeFixedAmount": 123,
+                "DisbursementFeeMinAmount": 123,
+                "DisbursementFeeRate": 123,
+                "MaxLoanAmount": 123,
+                "MaxLoanTerm": 123,
+                "MinLoanAmount": 123,
+                "MinLoanTerm": 123,
+                "NewAccountCashWithdrawalFeeRateATM": 123,
+                "NewAccountCashWithdrawalFeeRateBranch": 123,
+                "ProductName": "abc",
+                "StandardInsuranceRate": 123,
+                "PrePaymentFees": {
+                  "PrePaymentFee": [
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    },
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    }
+                  ]
+                }
+              },
+              {
+                "DisbursementFeeFixedAmount": 123,
+                "DisbursementFeeMinAmount": 123,
+                "DisbursementFeeRate": 123,
+                "MaxLoanAmount": 123,
+                "MaxLoanTerm": 123,
+                "MinLoanAmount": 123,
+                "MinLoanTerm": 123,
+                "NewAccountCashWithdrawalFeeRateATM": 123,
+                "NewAccountCashWithdrawalFeeRateBranch": 123,
+                "ProductName": "abc",
+                "StandardInsuranceRate": 123,
+                "PrePaymentFees": {
+                  "PrePaymentFee": [
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    },
+                    {
+                      "Count": 123,
+                      "Rate": 123,
+                      "Source": "abc"
+                    }
+                  ]
+                }
+              }
+            ],
+            "PayrollOffer": {
+              "DisbursementFeeRate": 123,
+              "StandardInsuranceRate": 123,
+              "CashWithdrawalFeeRate": 123,
+              "MinInterestRate": 123,
+              "MaxInterestRate": 123,
+              "PayrollOfferOwner": "abc",
+              "EmployerODB": "abc",
+              "ExceptionPayrollFlag": "abc"
+            }
+          },
+          "GeneralInfo": {
+            "ExchangeRates": {
+              "ExchangeRate": [
+                {
+                  "CurrencyCodeFrom": "USD",
+                  "CurrencyCodeTo": "GEL",
+                  "CurrencyRateSell": 123,
+                  "CurrencyRateBuy": 123,
+                  "ExchangeRateType": "NBG",
+                  "ExchangeRateMultiplicity": 1
+                },
+                {
+                  "CurrencyCodeFrom": "GEL",
+                  "CurrencyCodeTo": "USD",
+                  "CurrencyRateSell": 123,
+                  "CurrencyRateBuy": 123,
+                  "ExchangeRateType": "NBG",
+                  "ExchangeRateMultiplicity": 1
+                }
+              ]
+            }
+          },
+          "ClientSessionData": {
+            "ForeignIPCategory": "abc",
+            "ClientsPerDevicePerDay": 123
+          }
+        }
+      }
+    }
+  }
