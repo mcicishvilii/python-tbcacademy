@@ -5,12 +5,14 @@ applicants = record.system.application.tbcbank.request.applicants.applicant
 # Input data tbc
 is_closed = GDS_False
 customer_role = ""
-start_date = datetime(2022, 1, 1)
-application_date = datetime(2024,1,1)
+start_date = datetime(1970, 1, 1)
+
+application_date = datetime(1970,1,1)
+
 is_own_funds_refinancing = GDS_False
 refinance_flag = GDS_False
 new_outstanding_amount = 20
-product_category = "TBC_RETAIL_STANDARDdd"
+product_category = "TBC_RETAIL_STANDARD"
 new_limit_amount = 20
 ce_borrowing_share = 20
 number_of_payments_left = 39
@@ -45,7 +47,11 @@ for i in range(len(applicants)):
                     is_closed = loan.isclosed
                     customer_role = loan.customerrole
                     start_date = loan.startdate
-                    print(f"start_date = {start_date}")
+                    is_own_funds_refinancing = loan.isownfundsrefinancing
+                    refinance_flag = loan.refinanceflag
+                    # new_outstanding_amount = loan.newoutstandingamount
+                    product_category = loan.productcategory
+                    print(f"product_category = {product_category}")
                     
                 except ValueError as e:
                     print(f"Error calculating exchange rates for loan: {e}")
