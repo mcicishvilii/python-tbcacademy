@@ -3,7 +3,8 @@ applicants = record.system.application.tbcbank.request.applicants.applicant
 is_income_approved_by_photo = False
 income_model_limit = float("inf")
 max_min_loan_amount = None
-
+has_many_jobs = False
+is_check_self_income_transaction_at_tbc = False
 # minloan
 try:
     product_policies = (
@@ -47,10 +48,11 @@ if max_min_loan_amount is None:
     print(f"Using default MinLoanAmount: {max_min_loan_amount}")
 
 
-# income by photo
+# income by photo and ischeckselfincometransactionattbc
 for i in range(len(applicants)):
     print(f"applicant {i}")
     applicant = applicants[i]
+    print(record.system.application.tbcbank.request.applicants.applicant[i].jobs.ischeckselfincometransactionattbc)
     try:
         jobs = applicant.jobs.jobinfo
         if jobs.GetNodeKey() == -1:
@@ -79,29 +81,39 @@ for i in range(len(applicants)):
         print(f"Error accessing Jobs for applicant {i}: {e}")
 
 # income model limit
-try:
-    internal_data = applicant.internaldatainfo
-    if internal_data.GetNodeKey() == -1:
-        print(f"InternalDataInfo missing for applicant {i}")
-    else:
-        try:
-            transaction_history = internal_data.selfemployedtransactionhistory
-            if transaction_history.GetNodeKey() == -1:
-                print(f"SelfEmployedTransactionHistory missing for applicant {i}")
-            else:
-                try:
-                    income_model_limit = transaction_history.incomemodellimit
-                    print(f"IncomeModelLimit for applicant {i}: {income_model_limit}")
+for i in range(len(applicants)):
+    print(f"applicant {i}")
+    applicant = applicants[i]
+    try:
+        internal_data = applicant.internaldatainfo
+        if internal_data.GetNodeKey() == -1:
+            print(f"InternalDataInfo missing for applicant {i}")
+        else:
+            try:
+                transaction_history = internal_data.selfemployedtransactionhistory
+                if transaction_history.GetNodeKey() == -1:
+                    print(f"SelfEmployedTransactionHistory missing for applicant {i}")
+                else:
+                    try:
+                        income_model_limit = transaction_history.incomemodellimit
+                        print(f"IncomeModelLimit for applicant {i}: {income_model_limit}")
 
-                except AttributeError as e:
-                    print(f"Error accessing IncomeModelLimit for applicant {i}: {e}")
-        except AttributeError as e:
-            print(
-                f"Error accessing SelfEmployedTransactionHistory for applicant {i}: {e}"
-            )
-except AttributeError as e:
-    print(f"Error accessing InternalDataInfo for applicant {i}: {e}")
+                    except AttributeError as e:
+                        print(f"Error accessing IncomeModelLimit for applicant {i}: {e}")
+            except AttributeError as e:
+                print(
+                    f"Error accessing SelfEmployedTransactionHistory for applicant {i}: {e}"
+                )
+    except AttributeError as e:
+        print(f"Error accessing InternalDataInfo for applicant {i}: {e}")
 
 
 # jobinfo > 1
-
+for i in range(len(applicants)):
+    applicant = applicants[i]
+    has_many_jobs = has_multiple_jobs(applicant)
+    
+# predicted value > 200
+for i in range(len(applicants)):
+    applicant = applicants[i]
+    print(f"gheto gospel {predicted_value_greater(applicant)}")

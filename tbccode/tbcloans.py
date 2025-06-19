@@ -1,9 +1,7 @@
 # Extract Data
 target_currency = record.system.application.tbcbank.request.applicationdata.currency
 fx_rates = normalize(record.system.application.tbcbank.request.generalinfo.exchangerates.exchangerate)
-print(f"paxo {fx_rates}")
 NBGExchangeRates = fx_rates[fx_rates["ExchangeRateType"] == "NBG"]
-print(f"vaxo {NBGExchangeRates}")
 applicants = record.system.application.tbcbank.request.applicants.applicant
 
 # FX Rates Calculation Function
@@ -17,15 +15,14 @@ def ExchangeRates_Calculation(fx_rates, node_currency, target_currency, NBGExcha
         (NBGExchangeRates["CurrencyCodeTo"] == target_currency)
     ]
     if not filtered_rates.empty:
-        return filtered_rates["CurrencyRateSell"].iloc[0].item()  # Fixed: .itewm() -> .item()
+        return filtered_rates["CurrencyRateSell"].iloc[0].item()
     else:
         error_msg = f"No exchange rate found from {node_currency} to {target_currency}"
         print(error_msg)
         record.fcl_listener.output.application.messagelist.statuscode = "3"
         record.fcl_listener.output.application.messagelist.statusdescription = "System Error"
-        return None  # Return None instead of nothing
+        return None
 
-# Calculate the exchange rate for the loan
 try:
     print("gelaa")
     rate_to_gel = ExchangeRates_Calculation(fx_rates, target_currency, "GEL", NBGExchangeRates)

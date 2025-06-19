@@ -1,0 +1,8 @@
+def is_check_self_income_transaction_at_tbc(applicant):
+    try:
+        value = applicant.internaldatainfo.selfemployedtransactionhistory.predictedvalueingel
+        if predicted_value is not None and predicted_value >= 200:
+            return True
+        return False
+    except AttributeError:
+        return False
