@@ -1,9 +1,10 @@
-from student_manager import StudentManager
 from file_handler import load_students, save_students
+import student_manager
+
+FILENAME = "students.json"
 
 def main():
-    students = load_students("students.json")
-    manager = StudentManager(students)
+    students = load_students(FILENAME)
 
     while True:
         print("\n--- Student Grade Management System ---")
@@ -13,18 +14,18 @@ def main():
         print("4. Grade statistics")
         print("5. Save and Exit")
 
-        choice = input("Choose an option: ")
+        choice = input("Choose an option: ").strip()
 
         if choice == "1":
-            manager.add_student()
+            student_manager.add_student(students)
         elif choice == "2":
-            manager.display_students()
+            student_manager.display_students(students)
         elif choice == "3":
-            manager.delete_student()
+            student_manager.delete_student(students)
         elif choice == "4":
-            manager.analyze_grades()
+            student_manager.analyze_grades(students)
         elif choice == "5":
-            save_students(manager.students, "students.json")
+            save_students(students, FILENAME)
             print("Data saved. Goodbye!")
             break
         else:
