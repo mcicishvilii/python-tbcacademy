@@ -1,7 +1,7 @@
 from file_handler import load_students, save_students
 import student_manager
 
-FILENAME = "students.json"
+FILENAME = "final/students.json"
 
 def main():
     students = load_students(FILENAME)
