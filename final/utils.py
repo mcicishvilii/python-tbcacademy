@@ -1,4 +1,5 @@
-import uuid
+import random
+
 
 def generate_id():
-    return str(uuid.uuid4())[:8]
+    return str(random.randint(1000, 9999))
